@@ -272,9 +272,9 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'Button
 
-    S
+    Number
 
-    PP'
+    2'
 --- !u!222 &206182837
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -665,9 +665,9 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'Button
 
-    222
+    Number
 
-    69'
+    1'
 --- !u!222 &407137035
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2666,11 +2666,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Adem
+  m_Text: 'Scene 1
 
-    Adem
+    Scene 1
 
-    Adem'
+    Scene 1'
 --- !u!222 &2096606142
 CanvasRenderer:
   m_ObjectHideFlags: 0

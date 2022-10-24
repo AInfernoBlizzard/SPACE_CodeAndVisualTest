@@ -13,7 +13,7 @@ public class SceneChange : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        for (int i = 0; i <= 21; i++)
+        for (int i = 0; i <= 6; i++)
         {
             ListOfScenes.Add(i);
         }
