@@ -7,7 +7,7 @@ public class SceneChange : MonoBehaviour
 {
 
     public List<int> ListOfScenes;
-
+    public List<int> ignoreList;
 
 
     // Start is called before the first frame update
@@ -22,6 +22,10 @@ public class SceneChange : MonoBehaviour
     public void LoadRandomScene()
     {
         int index = Random.Range(0, ListOfScenes.Count-1);
+        while (ignoreList.BinarySearch(index) >= 0)
+        {
+            index = Random.Range(0, ListOfScenes.Count - 1);
+        }
         int newScene = ListOfScenes[index];
         SceneManager.LoadScene(newScene);
         
