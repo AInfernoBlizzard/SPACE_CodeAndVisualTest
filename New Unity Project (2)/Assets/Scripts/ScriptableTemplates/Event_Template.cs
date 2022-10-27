@@ -6,7 +6,7 @@ using UnityEngine;
 public class Event_Template : ScriptableObject
 {
 
-    public string EventDescription;
+    public string SituationTest;
     public string TextButton1;
     public string TextButton2;
     public int Money_1;
