@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ffe1ac4a8032cd4ea9f0a90e0d32a21, type: 3}
+  m_Name: Situation 6
+  m_EditorClassIdentifier: 
+  SituationTest: A red panda enters the resturant
+  TextButton1: Give it unlimited pizza and make it the mascot
+  TextButton2: Shoo it away
+  Money_1: 5
+  Staff_1: 5
+  Equip_1: 5
+  Quality_1: 5
+  Popularity_1: 5
+  Money_2: -5
+  Staff_2: -5
+  Equip_2: -5
+  Quality_2: -5
+  Popularity_2: -5
+  Special_1: 
+  Special_2: 
+  Explanation_1: Red Pandas > everything
+  Explanation_2: I hate you

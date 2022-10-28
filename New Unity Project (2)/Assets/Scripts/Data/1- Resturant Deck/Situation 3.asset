@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ffe1ac4a8032cd4ea9f0a90e0d32a21, type: 3}
+  m_Name: Situation 3
+  m_EditorClassIdentifier: 
+  SituationTest: 'There is an asteroid storm and orders are backing up '
+  TextButton1: Hop in your car and help
+  TextButton2: Stay and carry on making pizza's
+  Money_1: -5
+  Staff_1: 0
+  Equip_1: 0
+  Quality_1: 5
+  Popularity_1: 0
+  Money_2: -5
+  Staff_2: -5
+  Equip_2: -5
+  Quality_2: 5
+  Popularity_2: 0
+  Special_1: Asteroids
+  Special_2: 
+  Explanation_1: '*mouth car noises*'
+  Explanation_2: Gotta go make the pizzas
