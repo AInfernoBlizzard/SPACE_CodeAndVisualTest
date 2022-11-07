@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ffe1ac4a8032cd4ea9f0a90e0d32a21, type: 3}
   m_Name: Situation 7
   m_EditorClassIdentifier: 
-  SituationTest: 'The superhero captain amaze enters your store demanding a pizza
-    as soon as possible '
+  SituationTest: 'A superhero enters your store demanding a pizza as soon as possible '
   TextButton1: Instantly drop all orders and help her
   TextButton2: Sit her down and make her wait
   Money_1: 0
@@ -30,3 +29,4 @@ MonoBehaviour:
   Special_2: 
   Explanation_1: You must be a big fan
   Explanation_2: That is fair, I persoanlly did not like her movie that much either
+  Background: {fileID: 21300000, guid: 7c7fe53b9aa4cde479961435b74d4a8e, type: 3}

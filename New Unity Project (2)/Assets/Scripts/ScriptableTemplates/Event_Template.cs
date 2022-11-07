@@ -23,6 +23,7 @@ public class Event_Template : ScriptableObject
     public string Special_2;
     public string Explanation_1;
     public string Explanation_2;
+    public Sprite Background;
 
     // Start is called before the first frame update
     void Start()

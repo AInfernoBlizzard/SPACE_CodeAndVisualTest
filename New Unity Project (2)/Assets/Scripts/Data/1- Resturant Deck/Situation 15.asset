@@ -12,14 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ffe1ac4a8032cd4ea9f0a90e0d32a21, type: 3}
   m_Name: Situation 15
   m_EditorClassIdentifier: 
-  SituationTest: 
-  TextButton1: 
-  TextButton2: 
-  Money_1: 0
-  Staff_1: 0
-  Equip_1: 0
-  Quality_1: 0
-  Popularity_1: 0
+  SituationTest: 'You open the shop to notice a stone figure named Broom broom: The
+    transcendent being, is at your door '
+  TextButton1: 'Wait is this a Popo reference? '
+  TextButton2: Pizza time
+  Money_1: 5
+  Staff_1: 5
+  Equip_1: 5
+  Quality_1: 5
+  Popularity_1: 5
   Money_2: 0
   Staff_2: 0
   Equip_2: 0
@@ -27,5 +28,6 @@ MonoBehaviour:
   Popularity_2: 0
   Special_1: 
   Special_2: 
-  Explanation_1: 
-  Explanation_2: 
+  Explanation_1: Yes, it is
+  Explanation_2: Wrong reference, but I'll allow it
+  Background: {fileID: 21300000, guid: 7c7fe53b9aa4cde479961435b74d4a8e, type: 3}

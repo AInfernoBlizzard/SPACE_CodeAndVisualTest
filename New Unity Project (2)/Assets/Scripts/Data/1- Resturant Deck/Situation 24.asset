@@ -12,11 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ffe1ac4a8032cd4ea9f0a90e0d32a21, type: 3}
   m_Name: Situation 24
   m_EditorClassIdentifier: 
-  SituationTest: 
-  TextButton1: 
-  TextButton2: 
+  SituationTest: 'While clearing up to close for the night, a tall purple man in
+    a suit enters and offers you an investment '
+  TextButton1: 'Sling your hook '
+  TextButton2: Pizza Daddy?
   Money_1: 0
-  Staff_1: 0
+  Staff_1: -5
   Equip_1: 0
   Quality_1: 0
   Popularity_1: 0
@@ -26,6 +27,7 @@ MonoBehaviour:
   Quality_2: 0
   Popularity_2: 0
   Special_1: 
-  Special_2: 
-  Explanation_1: 
-  Explanation_2: 
+  Special_2: Pizza Daddy
+  Explanation_1: "They think it was a good idea, it\u2019s a shame"
+  Explanation_2: Wow! Pizza money is paying off now
+  Background: {fileID: 21300000, guid: 7c7fe53b9aa4cde479961435b74d4a8e, type: 3}

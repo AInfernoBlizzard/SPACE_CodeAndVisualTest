@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ffe1ac4a8032cd4ea9f0a90e0d32a21, type: 3}
   m_Name: Situation 38
   m_EditorClassIdentifier: 
-  SituationTest: 
-  TextButton1: 
-  TextButton2: 
+  SituationTest: A group of teenagers have started a food figh
+  TextButton1: 'Throw a pizza cutter at them '
+  TextButton2: 'Catch the pizza in mid-air '
   Money_1: 0
   Staff_1: 0
   Equip_1: 0
@@ -27,5 +27,6 @@ MonoBehaviour:
   Popularity_2: 0
   Special_1: 
   Special_2: 
-  Explanation_1: 
-  Explanation_2: 
+  Explanation_1: Slicey not very nicey
+  Explanation_2: You catch it like a goalkeeper
+  Background: {fileID: 21300000, guid: 7c7fe53b9aa4cde479961435b74d4a8e, type: 3}

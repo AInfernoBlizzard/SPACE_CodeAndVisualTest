@@ -12,20 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ffe1ac4a8032cd4ea9f0a90e0d32a21, type: 3}
   m_Name: Situation 30
   m_EditorClassIdentifier: 
-  SituationTest: 
-  TextButton1: 
-  TextButton2: 
-  Money_1: 0
-  Staff_1: 0
+  SituationTest: 'You have accidentally double booked 2 children parties '
+  TextButton1: 'Call party 1 to cancel '
+  TextButton2: Call party 2 to cancel
+  Money_1: -5
+  Staff_1: -5
   Equip_1: 0
   Quality_1: 0
   Popularity_1: 0
   Money_2: 0
   Staff_2: 0
   Equip_2: 0
-  Quality_2: 0
-  Popularity_2: 0
+  Quality_2: -5
+  Popularity_2: -5
   Special_1: 
   Special_2: 
-  Explanation_1: 
-  Explanation_2: 
+  Explanation_1: "It was your rich waitress\u2019s little sister\u2019s birthday"
+  Explanation_2: "Well they weren\u2019t really happy"
+  Background: {fileID: 21300000, guid: 7c7fe53b9aa4cde479961435b74d4a8e, type: 3}

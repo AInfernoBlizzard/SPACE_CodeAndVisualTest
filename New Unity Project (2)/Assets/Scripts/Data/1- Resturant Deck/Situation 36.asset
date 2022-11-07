@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ffe1ac4a8032cd4ea9f0a90e0d32a21, type: 3}
   m_Name: Situation 36
   m_EditorClassIdentifier: 
-  SituationTest: 
-  TextButton1: 
-  TextButton2: 
-  Money_1: 0
+  SituationTest: 'A nagging table is asking for non-menu items '
+  TextButton1: 'Make it especially for them '
+  TextButton2: 'Tell them to look at the menu '
+  Money_1: 5
   Staff_1: 0
   Equip_1: 0
   Quality_1: 0
@@ -24,8 +24,9 @@ MonoBehaviour:
   Staff_2: 0
   Equip_2: 0
   Quality_2: 0
-  Popularity_2: 0
+  Popularity_2: -5
   Special_1: 
   Special_2: 
-  Explanation_1: 
-  Explanation_2: 
+  Explanation_1: 'Customer service at its best '
+  Explanation_2: They find nothing, then go home
+  Background: {fileID: 21300000, guid: 7c7fe53b9aa4cde479961435b74d4a8e, type: 3}

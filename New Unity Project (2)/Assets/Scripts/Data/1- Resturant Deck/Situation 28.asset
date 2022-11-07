@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ffe1ac4a8032cd4ea9f0a90e0d32a21, type: 3}
   m_Name: Situation 28
   m_EditorClassIdentifier: 
-  SituationTest: 
-  TextButton1: 
-  TextButton2: 
-  Money_1: 0
+  SituationTest: 'A party of 20 enter your restaurant requesting a table '
+  TextButton1: 'Try to fit them in '
+  TextButton2: 'Sorry, no space '
+  Money_1: 5
   Staff_1: 0
   Equip_1: 0
   Quality_1: 0
@@ -24,8 +24,9 @@ MonoBehaviour:
   Staff_2: 0
   Equip_2: 0
   Quality_2: 0
-  Popularity_2: 0
+  Popularity_2: -5
   Special_1: 
   Special_2: 
-  Explanation_1: 
-  Explanation_2: 
+  Explanation_1: They proceed to not order for an hour
+  Explanation_2: They huff and puff then walk out
+  Background: {fileID: 21300000, guid: 7c7fe53b9aa4cde479961435b74d4a8e, type: 3}

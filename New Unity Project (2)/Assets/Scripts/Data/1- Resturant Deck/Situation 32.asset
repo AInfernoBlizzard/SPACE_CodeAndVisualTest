@@ -12,20 +12,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ffe1ac4a8032cd4ea9f0a90e0d32a21, type: 3}
   m_Name: Situation 32
   m_EditorClassIdentifier: 
-  SituationTest: 
-  TextButton1: 
-  TextButton2: 
+  SituationTest: 'You are taking pizzas out when a group from a children''s party
+    steal your pizza '
+  TextButton1: 'Kids will be kids '
+  TextButton2: 'Make the parents pay '
   Money_1: 0
   Staff_1: 0
   Equip_1: 0
   Quality_1: 0
-  Popularity_1: 0
-  Money_2: 0
+  Popularity_1: -5
+  Money_2: 5
   Staff_2: 0
   Equip_2: 0
   Quality_2: 0
   Popularity_2: 0
   Special_1: 
   Special_2: 
-  Explanation_1: 
-  Explanation_2: 
+  Explanation_1: "Terrible twos\u2026 and threes, fours, fives\u2026"
+  Explanation_2: Legally responsible, and financially
+  Background: {fileID: 21300000, guid: 7c7fe53b9aa4cde479961435b74d4a8e, type: 3}
