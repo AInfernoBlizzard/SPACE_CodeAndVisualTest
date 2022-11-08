@@ -736,7 +736,7 @@ MonoBehaviour:
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 1
-  m_FillAmount: 1
+  m_FillAmount: 0.5
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
@@ -1181,7 +1181,7 @@ MonoBehaviour:
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 1
-  m_FillAmount: 1
+  m_FillAmount: 0.5
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
@@ -1348,7 +1348,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 700, y: 342, z: -1134.8}
+  m_LocalPosition: {x: 700, y: 342, z: -1460}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2012,7 +2012,7 @@ MonoBehaviour:
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 1
-  m_FillAmount: 1
+  m_FillAmount: 0.5
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
@@ -2223,7 +2223,7 @@ MonoBehaviour:
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 1
-  m_FillAmount: 1
+  m_FillAmount: 0.5
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
@@ -2284,53 +2284,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 8e925b0932aa6ae4593a3326986fe5dd, type: 2}
   - {fileID: 11400000, guid: 5a7eb65c25d6f214ea511fb0ee61e81b, type: 2}
   - {fileID: 11400000, guid: 59ad88b4c5a6d174d8c383edd0d4b39f, type: 2}
-  - {fileID: 11400000, guid: f46984f8bfd54e54b8f9e52add9f523b, type: 2}
-  - {fileID: 11400000, guid: d4ca7d537cfb90549b01cda95ed5e208, type: 2}
-  - {fileID: 11400000, guid: f46984f8bfd54e54b8f9e52add9f523b, type: 2}
-  - {fileID: 11400000, guid: f46984f8bfd54e54b8f9e52add9f523b, type: 2}
-  - {fileID: 11400000, guid: f46984f8bfd54e54b8f9e52add9f523b, type: 2}
-  - {fileID: 11400000, guid: f46984f8bfd54e54b8f9e52add9f523b, type: 2}
-  - {fileID: 11400000, guid: f46984f8bfd54e54b8f9e52add9f523b, type: 2}
-  - {fileID: 11400000, guid: f46984f8bfd54e54b8f9e52add9f523b, type: 2}
-  - {fileID: 11400000, guid: f46984f8bfd54e54b8f9e52add9f523b, type: 2}
-  - {fileID: 11400000, guid: f46984f8bfd54e54b8f9e52add9f523b, type: 2}
-  - {fileID: 11400000, guid: f46984f8bfd54e54b8f9e52add9f523b, type: 2}
-  - {fileID: 11400000, guid: f46984f8bfd54e54b8f9e52add9f523b, type: 2}
-  - {fileID: 11400000, guid: f46984f8bfd54e54b8f9e52add9f523b, type: 2}
-  - {fileID: 11400000, guid: f46984f8bfd54e54b8f9e52add9f523b, type: 2}
-  - {fileID: 11400000, guid: f46984f8bfd54e54b8f9e52add9f523b, type: 2}
-  - {fileID: 11400000, guid: f46984f8bfd54e54b8f9e52add9f523b, type: 2}
-  - {fileID: 11400000, guid: f46984f8bfd54e54b8f9e52add9f523b, type: 2}
-  - {fileID: 11400000, guid: f46984f8bfd54e54b8f9e52add9f523b, type: 2}
-  - {fileID: 11400000, guid: f46984f8bfd54e54b8f9e52add9f523b, type: 2}
-  - {fileID: 11400000, guid: f46984f8bfd54e54b8f9e52add9f523b, type: 2}
-  - {fileID: 11400000, guid: f46984f8bfd54e54b8f9e52add9f523b, type: 2}
-  - {fileID: 11400000, guid: f46984f8bfd54e54b8f9e52add9f523b, type: 2}
-  - {fileID: 11400000, guid: f46984f8bfd54e54b8f9e52add9f523b, type: 2}
-  - {fileID: 11400000, guid: f46984f8bfd54e54b8f9e52add9f523b, type: 2}
-  - {fileID: 11400000, guid: f46984f8bfd54e54b8f9e52add9f523b, type: 2}
-  - {fileID: 11400000, guid: f46984f8bfd54e54b8f9e52add9f523b, type: 2}
-  - {fileID: 11400000, guid: f46984f8bfd54e54b8f9e52add9f523b, type: 2}
-  - {fileID: 11400000, guid: f46984f8bfd54e54b8f9e52add9f523b, type: 2}
-  - {fileID: 11400000, guid: f46984f8bfd54e54b8f9e52add9f523b, type: 2}
-  - {fileID: 11400000, guid: f46984f8bfd54e54b8f9e52add9f523b, type: 2}
-  - {fileID: 11400000, guid: f46984f8bfd54e54b8f9e52add9f523b, type: 2}
-  - {fileID: 11400000, guid: f46984f8bfd54e54b8f9e52add9f523b, type: 2}
-  - {fileID: 11400000, guid: f46984f8bfd54e54b8f9e52add9f523b, type: 2}
-  - {fileID: 11400000, guid: f46984f8bfd54e54b8f9e52add9f523b, type: 2}
-  - {fileID: 11400000, guid: fb6b71adb43dbdf479d28eabd9a2d0e1, type: 2}
-  - {fileID: 11400000, guid: b3ef4f03ba9d6fe4f83e5934d54433cf, type: 2}
-  - {fileID: 11400000, guid: 77f720f05122f2a42b88085c16ae4e5a, type: 2}
-  - {fileID: 11400000, guid: c7b06ccce48c02e45a1e8a65b4f72af6, type: 2}
-  - {fileID: 11400000, guid: dfd6f0671eda77149be3788af595b8fc, type: 2}
-  - {fileID: 11400000, guid: 0cf5cf4840a6e6a439f547c5eb28e2d5, type: 2}
-  - {fileID: 11400000, guid: dd2228e01d936c849a94ccd6dabeae42, type: 2}
-  - {fileID: 11400000, guid: 70c93e4044f29b544849d2c7acf748f7, type: 2}
-  - {fileID: 11400000, guid: c33d65678c1d5104795f030e5d1d8cf2, type: 2}
-  - {fileID: 11400000, guid: 291055e167187c2468ea1efe29a50391, type: 2}
-  - {fileID: 11400000, guid: 6c7d42fa1a149964a92d882ff7344ecf, type: 2}
-  - {fileID: 11400000, guid: 0b7dd0072111676418fa39b3529ff22f, type: 2}
-  - {fileID: 11400000, guid: 7ff3235e558ee5f46b05cbc121eaced3, type: 2}
   Money: 50
   Staff: 50
   Equip: 50
@@ -2633,7 +2586,7 @@ MonoBehaviour:
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 1
-  m_FillAmount: 1
+  m_FillAmount: 0.5
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
