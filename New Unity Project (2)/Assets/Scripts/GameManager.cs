@@ -200,6 +200,41 @@ public class GameManager : MonoBehaviour
         PowerUpTicker = NumberOfTurns;
         //Activate the graphic
     }
+    void MoneyPowerUp2(int NumberOfTurns)
+    {
+        ResetMultipliers();
+        MoneyMultiplier = 1/2;
+        PowerUpTicker = NumberOfTurns;
+        //Activate the graphic
+    }
+    void PopularityPowerUp2(int NumberOfTurns)
+    {
+        ResetMultipliers();
+        PopularityMultiplier = 1/2;
+        PowerUpTicker = NumberOfTurns;
+        //Activate the graphic
+    }
+    void EquipmentPowerUp2(int NumberOfTurns)
+    {
+        ResetMultipliers();
+        EquipMultiplier = 1/2;
+        PowerUpTicker = NumberOfTurns;
+        //Activate the graphic
+    }
+    void StaffPowerUp2(int NumberOfTurns)
+    {
+        ResetMultipliers();
+        StaffMultiplier = 1/2;
+        PowerUpTicker = NumberOfTurns;
+        //Activate the graphic
+    }
+    void QualityPowerUp2(int NumberOfTurns)
+    {
+        ResetMultipliers();
+        QualityMultiplier = 1/2;
+        PowerUpTicker = NumberOfTurns;
+        //Activate the graphic
+    }
 
     public void EndGameCheck()
     {
