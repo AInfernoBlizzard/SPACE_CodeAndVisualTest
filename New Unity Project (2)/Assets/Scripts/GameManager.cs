@@ -30,11 +30,14 @@ public class GameManager : MonoBehaviour
     public Image EquipBar;
     public Image QualityBar;
     public Image PopularityBar;
+    public Image backgroundImage;
 
     public Text MainBodyText;
 
     public Text ChoiceOneText;
     public Text ChoiceTwoText;
+
+    public Image GalaxiesFavourite;
 
     private bool eventSet;
     private bool showAfter;
@@ -83,7 +86,8 @@ public class GameManager : MonoBehaviour
         //add text for buttons
         ChoiceOneText.text = eventDeck[0].TextButton1;
         ChoiceTwoText.text = eventDeck[0].TextButton2;
-
+        //Want to change background to eventDeck specific background.sprite = eventDeck[0].Background;
+        backgroundImage.sprite = eventDeck[0].Background;
 
     }
 
@@ -205,6 +209,7 @@ public class GameManager : MonoBehaviour
         ResetMultipliers();
         MoneyMultiplier = 2f;
         PowerUpTicker = NumberOfTurns;
+        GalaxiesFavourite.gameObject.transform.parent.gameObject.SetActive(true);
         //Activate the graphic
     }
     void PopularityPowerUp(float NumberOfTurns)
