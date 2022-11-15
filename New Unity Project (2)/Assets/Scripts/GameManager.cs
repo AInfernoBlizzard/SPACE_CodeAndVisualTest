@@ -10,20 +10,20 @@ public class GameManager : MonoBehaviour
 
 
     
-    public int Money;
-    public int Staff;
-    public int Equip;
-    public int Quality;
-    public int Popularity;
+    public float Money;
+    public float Staff;
+    public float Equip;
+    public float Quality;
+    public float Popularity;
 
 
-    public int MoneyMultiplier = 1;
-    public int StaffMultiplier = 1;
-    public int EquipMultiplier = 1;
-    public int QualityMultiplier = 1;
-    public int PopularityMultiplier = 1;
+    public float MoneyMultiplier = 1;
+    public float StaffMultiplier = 1;
+    public float EquipMultiplier = 1;
+    public float QualityMultiplier = 1;
+    public float PopularityMultiplier = 1;
 
-    public int PowerUpTicker;
+    public float PowerUpTicker;
 
     public Image MoneyBar;
     public Image StaffBar;
@@ -153,85 +153,120 @@ public class GameManager : MonoBehaviour
             SceneManager.LoadScene("Money0");
         }
 
+        if (Money > 99)
+        {
+            SceneManager.LoadScene("Money100");
+        }
+
+        if (Popularity < 1)
+        {
+            SceneManager.LoadScene("Popularity0");
+        }
+        
+        if (Popularity > 99)
+        {
+            SceneManager.LoadScene("Popularity100");
+        }
+
+        if (Equip < 1)
+        {
+            SceneManager.LoadScene("Equipment0");
+        }
+
+        if (Equip > 99)
+        {
+            SceneManager.LoadScene("Equipment100");
+        }
+
+        if (Quality < 1)
+        {
+            SceneManager.LoadScene("Quality0");
+        }
+
+        if (Quality > 99)
+        {
+            SceneManager.LoadScene("Quality100");
+        }
+
     }
 
 
     void ResetMultipliers()
     {
         //Deactivate the graphics
-        MoneyMultiplier = 1;
-        StaffMultiplier = 1;
-        EquipMultiplier = 1;
-        QualityMultiplier = 1;
-        PopularityMultiplier = 1;
+        MoneyMultiplier = 1f;
+        StaffMultiplier = 1f;
+        EquipMultiplier = 1f;
+        QualityMultiplier = 1f;
+        PopularityMultiplier = 1f;
     }
-    void MoneyPowerUp(int NumberOfTurns)
+    void MoneyPowerUp(float NumberOfTurns)
     {
         ResetMultipliers();
-        MoneyMultiplier = 2;
+        MoneyMultiplier = 2f;
         PowerUpTicker = NumberOfTurns;
         //Activate the graphic
     }
-    void PopularityPowerUp(int NumberOfTurns)
+    void PopularityPowerUp(float NumberOfTurns)
     {
         ResetMultipliers();
-        PopularityMultiplier = 2;
+        PopularityMultiplier = 2f;
         PowerUpTicker = NumberOfTurns;
         //Activate the graphic
     }
-    void EquipmentPowerUp(int NumberOfTurns)
+    void EquipmentPowerUp(float NumberOfTurns)
     {
         ResetMultipliers();
-        EquipMultiplier = 2;
+        EquipMultiplier = 2f;
         PowerUpTicker = NumberOfTurns;
         //Activate the graphic
     }
-    void StaffPowerUp(int NumberOfTurns)
+    void StaffPowerUp(float NumberOfTurns)
     {
         ResetMultipliers();
-        StaffMultiplier = 2;
+        StaffMultiplier = 2f;
         PowerUpTicker = NumberOfTurns;
         //Activate the graphic
     }
-    void QualityPowerUp(int NumberOfTurns)
+    void QualityPowerUp(float NumberOfTurns)
     {
         ResetMultipliers();
-        QualityMultiplier = 2;
+        QualityMultiplier = 2f;
         PowerUpTicker = NumberOfTurns;
         //Activate the graphic
     }
-    void MoneyPowerUp2(int NumberOfTurns)
+    void MoneyPowerUp2(float NumberOfTurns)
     {
         ResetMultipliers();
-        MoneyMultiplier = 1/2;
+        MoneyMultiplier = 0.5f;
         PowerUpTicker = NumberOfTurns;
         //Activate the graphic
     }
-    void PopularityPowerUp2(int NumberOfTurns)
+    void PopularityPowerUp2(float NumberOfTurns)
     {
         ResetMultipliers();
-        PopularityMultiplier = 1/2;
+        PopularityMultiplier = 0.5f;
         PowerUpTicker = NumberOfTurns;
         //Activate the graphic
     }
-    void EquipmentPowerUp2(int NumberOfTurns)
+    void EquipmentPowerUp2(float NumberOfTurns)
     {
         ResetMultipliers();
-        EquipMultiplier = 1/2;
+        EquipMultiplier = 0.5f;
         PowerUpTicker = NumberOfTurns;
         //Activate the graphic
     }
-    void StaffPowerUp2(int NumberOfTurns)
+    void StaffPowerUp2(float NumberOfTurns)
     {
         ResetMultipliers();
-        StaffMultiplier = 1/2;
+        StaffMultiplier = 0.5f;
         PowerUpTicker = NumberOfTurns;
         //Activate the graphic
     }
-    void QualityPowerUp2(int NumberOfTurns)
+    void QualityPowerUp2(float NumberOfTurns)
     {
         ResetMultipliers();
-        QualityMultiplier = 1/2;
+        QualityMultiplier = 0.5f;
         PowerUpTicker = NumberOfTurns;
         //Activate the graphic
     }
