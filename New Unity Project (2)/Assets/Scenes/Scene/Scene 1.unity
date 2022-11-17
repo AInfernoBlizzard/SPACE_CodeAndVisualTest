@@ -3258,6 +3258,31 @@ MonoBehaviour:
   - {fileID: 11400000, guid: f1530ac47872d8848bcefc9f0b743903, type: 2}
   - {fileID: 11400000, guid: e0a262e5eae67164b9ab371aa3b444c1, type: 2}
   - {fileID: 11400000, guid: af0d6ef3c650d514b9cbc7f0366e865d, type: 2}
+  - {fileID: 11400000, guid: af0d6ef3c650d514b9cbc7f0366e865d, type: 2}
+  - {fileID: 11400000, guid: 812397fba7dd9aa48976b1a3ad0e8c99, type: 2}
+  - {fileID: 11400000, guid: 80f0686d61ce07849b81bada5d6082cd, type: 2}
+  - {fileID: 11400000, guid: 75e77d9576583ff4493f5de974120e14, type: 2}
+  - {fileID: 11400000, guid: 4ff0f45b3a3f89345bdc9261c2b5c51c, type: 2}
+  - {fileID: 11400000, guid: 13af5f677eb7c3e44a59da739e79e503, type: 2}
+  - {fileID: 11400000, guid: 84efe2faa13495e42bd529477cec8208, type: 2}
+  - {fileID: 11400000, guid: a1e333da221228449bb3f6e9f75aa201, type: 2}
+  - {fileID: 11400000, guid: 28c730f2a8acc9d4fb84d4ceba5ea0ab, type: 2}
+  - {fileID: 11400000, guid: 69dc9d50a540f7a4e9934068dea93b0b, type: 2}
+  - {fileID: 11400000, guid: eb1aeebc6b3c2d54ba994c14054c8050, type: 2}
+  - {fileID: 11400000, guid: d4f33ed22aa653e4baacf1ac7bfceae7, type: 2}
+  - {fileID: 11400000, guid: e20f65cdd77b15d4185ff03e47af6e86, type: 2}
+  - {fileID: 11400000, guid: 850eea357bc2dea4380ddc90b5279869, type: 2}
+  - {fileID: 11400000, guid: 92d20dd46808d764ea1172cd943480f8, type: 2}
+  - {fileID: 11400000, guid: 1edeb594d11324e4f981525064037f76, type: 2}
+  - {fileID: 11400000, guid: 46ba27493051337498239a45946d57ef, type: 2}
+  - {fileID: 11400000, guid: 36e3ea31fb0e1144c9dc933ab9be80ab, type: 2}
+  - {fileID: 11400000, guid: 41edc8019ecabd24fb4bc7d98498940d, type: 2}
+  - {fileID: 11400000, guid: 2d72309c261525e4c8fbd8963d30212f, type: 2}
+  - {fileID: 11400000, guid: 87e44c3f3b517304fb880107ed6834fc, type: 2}
+  - {fileID: 11400000, guid: 60f638c4af613c54fadb526cec8e2abb, type: 2}
+  - {fileID: 11400000, guid: b33df6a41796fb7488a9b858a8c93a75, type: 2}
+  - {fileID: 11400000, guid: 5da641186231e70449ce6d0a0a5a4737, type: 2}
+  - {fileID: 11400000, guid: fe1af78d91174cb439d20e9329233594, type: 2}
   Money: 50
   Staff: 50
   Equip: 50

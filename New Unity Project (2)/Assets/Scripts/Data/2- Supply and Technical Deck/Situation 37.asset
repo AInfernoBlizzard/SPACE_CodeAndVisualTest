@@ -12,21 +12,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ffe1ac4a8032cd4ea9f0a90e0d32a21, type: 3}
   m_Name: Situation 37
   m_EditorClassIdentifier: 
-  SituationTest: 
-  TextButton1: 
-  TextButton2: 
-  Money_1: 0
+  SituationTest: 'Your egg supplier is rumoured to be going out of business  '
+  TextButton1: Jump ship
+  TextButton2: Stay loyal
+  Money_1: 5
   Staff_1: 0
   Equip_1: 0
-  Quality_1: 0
+  Quality_1: 5
   Popularity_1: 0
-  Money_2: 0
+  Money_2: -5
   Staff_2: 0
   Equip_2: 0
-  Quality_2: 0
+  Quality_2: -5
   Popularity_2: 0
   Special_1: 
   Special_2: 
-  Explanation_1: 
-  Explanation_2: 
+  Explanation_1: Lucky move, plus better eggs
+  Explanation_2: They went out of business so you now do not have a supplier for
+    eggs anymore
   Background: {fileID: 21300000, guid: cac58f3d998e66b4b82df83aa87465fc, type: 3}

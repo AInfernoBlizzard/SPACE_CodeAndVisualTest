@@ -12,21 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ffe1ac4a8032cd4ea9f0a90e0d32a21, type: 3}
   m_Name: Situation 48
   m_EditorClassIdentifier: 
-  SituationTest: 
-  TextButton1: 
-  TextButton2: 
-  Money_1: 0
-  Staff_1: 0
+  SituationTest: 'The safety equipment is beginning to rip '
+  TextButton1: 'Do not buy new '
+  TextButton2: 'Buy new '
+  Money_1: 5
+  Staff_1: -5
   Equip_1: 0
   Quality_1: 0
   Popularity_1: 0
-  Money_2: 0
-  Staff_2: 0
+  Money_2: -5
+  Staff_2: -5
   Equip_2: 0
   Quality_2: 0
   Popularity_2: 0
   Special_1: 
   Special_2: 
-  Explanation_1: 
-  Explanation_2: 
+  Explanation_1: '*Rip* uh oh'
+  Explanation_2: Reinforced materials are nice but costly
   Background: {fileID: 21300000, guid: cac58f3d998e66b4b82df83aa87465fc, type: 3}

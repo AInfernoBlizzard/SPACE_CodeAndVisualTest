@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ffe1ac4a8032cd4ea9f0a90e0d32a21, type: 3}
   m_Name: Situation 41
   m_EditorClassIdentifier: 
-  SituationTest: 
-  TextButton1: 
-  TextButton2: 
+  SituationTest: 'A rival staff member has tried to enter a delivery truck and take
+    a new model of oven '
+  TextButton1: Fight them
+  TextButton2: Try to snatch it back off them
   Money_1: 0
   Staff_1: 0
   Equip_1: 0
@@ -22,11 +23,11 @@ MonoBehaviour:
   Popularity_1: 0
   Money_2: 0
   Staff_2: 0
-  Equip_2: 0
+  Equip_2: -5
   Quality_2: 0
   Popularity_2: 0
-  Special_1: 
+  Special_1: FightingMiniGame
   Special_2: 
-  Explanation_1: 
-  Explanation_2: 
+  Explanation_1: (a mini game would go here) FIGHT FIGHT FIGHT
+  Explanation_2: You slipped and they got away
   Background: {fileID: 21300000, guid: cac58f3d998e66b4b82df83aa87465fc, type: 3}
