@@ -15,7 +15,7 @@ C:/Users/adems/Downloads/15.11 SPACE/SPACE/New Unity Project (2)
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53437
+59219
 Successfully changed project path to: C:/Users/adems/Downloads/15.11 SPACE/SPACE/New Unity Project (2)
 C:/Users/adems/Downloads/15.11 SPACE/SPACE/New Unity Project (2)
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/adems/Downloads/15.11 SPACE/SPACE/New Unity Project (2)
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 111.01 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 132.63 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.6f1 (7da38d85baf6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
@@ -63,89 +63,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56172
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56008
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.012278 seconds.
+Registered in 0.013085 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 104.43 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 107.06 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.815 seconds
+- Completed reload, in  0.927 seconds
 Domain Reload Profiling:
-	ReloadAssembly (816ms)
-		BeginReloadAssembly (100ms)
+	ReloadAssembly (927ms)
+		BeginReloadAssembly (139ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (575ms)
-			LoadAssemblies (96ms)
+		EndReloadAssembly (617ms)
+			LoadAssemblies (132ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (121ms)
+			SetupTypeCache (154ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (356ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (350ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (105ms)
+				RefreshPlugins (107ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (181ms)
-				ProcessInitializeOnLoadMethodAttributes (58ms)
+				ProcessInitializeOnLoadAttributes (173ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.012873 seconds.
+Registered in 0.012924 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\adems\Downloads\15.11 SPACE\SPACE\New Unity Project (2)\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\adems\Downloads\15.11 SPACE\SPACE\New Unity Project (2)\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.451 seconds
+- Completed reload, in  1.531 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1452ms)
-		BeginReloadAssembly (153ms)
+	ReloadAssembly (1531ms)
+		BeginReloadAssembly (179ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (23ms)
-		EndReloadAssembly (1128ms)
-			LoadAssemblies (125ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (1181ms)
+			LoadAssemblies (143ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (389ms)
+			SetupTypeCache (402ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (508ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (546ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (122ms)
-				ProcessInitializeOnLoadAttributes (327ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
-				AfterProcessingInitializeOnLoad (14ms)
+				BeforeProcessingInitializeOnLoad (131ms)
+				ProcessInitializeOnLoadAttributes (353ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (16ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3375 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 27 unused Assets / (111.0 KB). Loaded Objects now: 3833.
 Memory consumption went from 116.1 MB to 116.0 MB.
-Total: 4.083100 ms (FindLiveObjects: 0.301200 ms CreateObjectMapping: 0.273800 ms MarkObjects: 3.384000 ms  DeleteObjects: 0.122800 ms)
+Total: 3.586700 ms (FindLiveObjects: 0.279000 ms CreateObjectMapping: 0.229400 ms MarkObjects: 2.971500 ms  DeleteObjects: 0.105900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -160,106 +160,16 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 516819.453508 seconds.
-  path: Assets/Scripts/Data/2- Supply and Technical Deck/Situation 26.asset
-  artifactKey: Guid(812397fba7dd9aa48976b1a3ad0e8c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Data/2- Supply and Technical Deck/Situation 26.asset using Guid(812397fba7dd9aa48976b1a3ad0e8c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e50d28b2dc21550e7ce2004805a4c26') in 0.046781 seconds 
+  Time since last request: 614064.920945 seconds.
+  path: Assets/Scripts/Data/3- Staff and Personal Life deck/Situation 40.asset
+  artifactKey: Guid(a7f7ab1ad8585b44aab087f7ea8dc3a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/3- Staff and Personal Life deck/Situation 40.asset using Guid(a7f7ab1ad8585b44aab087f7ea8dc3a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd22ebb2f238a7dbcfdd93179a82e6754') in 0.038379 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 92.636181 seconds.
-  path: Assets/Scripts/Data/2- Supply and Technical Deck/Situation 27.asset
-  artifactKey: Guid(80f0686d61ce07849b81bada5d6082cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Data/2- Supply and Technical Deck/Situation 27.asset using Guid(80f0686d61ce07849b81bada5d6082cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2952152411e077da8543a7d79200857') in 0.003751 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 73.602101 seconds.
-  path: Assets/Scripts/Data/2- Supply and Technical Deck/Situation 29.asset
-  artifactKey: Guid(4ff0f45b3a3f89345bdc9261c2b5c51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Data/2- Supply and Technical Deck/Situation 29.asset using Guid(4ff0f45b3a3f89345bdc9261c2b5c51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c40bbab2818e57119d99d781be00a096') in 0.004014 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 44.401722 seconds.
-  path: Assets/Scripts/Data/2- Supply and Technical Deck/Situation 31.asset
-  artifactKey: Guid(84efe2faa13495e42bd529477cec8208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Data/2- Supply and Technical Deck/Situation 31.asset using Guid(84efe2faa13495e42bd529477cec8208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd74416ec067b995cae939adb85243308') in 0.003662 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 153.434824 seconds.
-  path: Assets/Scripts/Data/2- Supply and Technical Deck/Situation 32.asset
-  artifactKey: Guid(a1e333da221228449bb3f6e9f75aa201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Data/2- Supply and Technical Deck/Situation 32.asset using Guid(a1e333da221228449bb3f6e9f75aa201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71ea0679835c68019e1b6a4639f2db05') in 0.003866 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Scripts/Data/2- Supply and Technical Deck/Situation 34.asset
-  artifactKey: Guid(69dc9d50a540f7a4e9934068dea93b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Data/2- Supply and Technical Deck/Situation 34.asset using Guid(69dc9d50a540f7a4e9934068dea93b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3a49a0c79906fb8b7fd74622de7763c') in 0.003878 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 33.253025 seconds.
-  path: Assets/Scripts/Data/2- Supply and Technical Deck/Situation 35.asset
-  artifactKey: Guid(eb1aeebc6b3c2d54ba994c14054c8050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Data/2- Supply and Technical Deck/Situation 35.asset using Guid(eb1aeebc6b3c2d54ba994c14054c8050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '638f8482e6a7771694e18a2a49b3f19d') in 0.003897 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 39.742546 seconds.
-  path: Assets/Scripts/Data/2- Supply and Technical Deck/Situation 36.asset
-  artifactKey: Guid(d4f33ed22aa653e4baacf1ac7bfceae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Data/2- Supply and Technical Deck/Situation 36.asset using Guid(d4f33ed22aa653e4baacf1ac7bfceae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '334df78374a8519bb139f883c63ecda3') in 0.003544 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 42.837869 seconds.
-  path: Assets/Scripts/Data/2- Supply and Technical Deck/Situation 37.asset
-  artifactKey: Guid(e20f65cdd77b15d4185ff03e47af6e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Data/2- Supply and Technical Deck/Situation 37.asset using Guid(e20f65cdd77b15d4185ff03e47af6e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a2273d4a7c26cd26471f3adb44ef05c') in 0.004079 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 686.264259 seconds.
-  path: Assets/Scripts/Data/2- Supply and Technical Deck/Situation 45.asset
-  artifactKey: Guid(5884563a81097284a8ba99875d8e7e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Data/2- Supply and Technical Deck/Situation 45.asset using Guid(5884563a81097284a8ba99875d8e7e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce58fb8d27532cde6d7957e60372b203') in 0.004151 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000346 seconds.
-  path: Assets/Scripts/Data/2- Supply and Technical Deck/Situation 38.asset
-  artifactKey: Guid(850eea357bc2dea4380ddc90b5279869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Data/2- Supply and Technical Deck/Situation 38.asset using Guid(850eea357bc2dea4380ddc90b5279869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fdf54815556c6bfa4d5b563454adeef') in 0.003231 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.005313 seconds.
-  path: Assets/Scripts/Data/2- Supply and Technical Deck/Situation 40.asset
-  artifactKey: Guid(1edeb594d11324e4f981525064037f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Data/2- Supply and Technical Deck/Situation 40.asset using Guid(1edeb594d11324e4f981525064037f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43d0fe83632a61c221365bb2ac8393d3') in 0.004357 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Scripts/Data/2- Supply and Technical Deck/Situation 44.asset
-  artifactKey: Guid(2d72309c261525e4c8fbd8963d30212f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Data/2- Supply and Technical Deck/Situation 44.asset using Guid(2d72309c261525e4c8fbd8963d30212f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ee2b15eafec122af7dd417bf89e14f8') in 0.003676 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Scripts/Data/2- Supply and Technical Deck/Situation 42.asset
-  artifactKey: Guid(36e3ea31fb0e1144c9dc933ab9be80ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Data/2- Supply and Technical Deck/Situation 42.asset using Guid(36e3ea31fb0e1144c9dc933ab9be80ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2a8151b8b1ae5844f4b2843ded7ea7b') in 0.003604 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 214.793608 seconds.
-  path: Assets/Scripts/Data/2- Supply and Technical Deck/Situation 46.asset
-  artifactKey: Guid(87e44c3f3b517304fb880107ed6834fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Data/2- Supply and Technical Deck/Situation 46.asset using Guid(87e44c3f3b517304fb880107ed6834fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0970a52cd4ea635d5bd5eade43709ac5') in 0.003850 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.002526 seconds.
-  path: Assets/Scripts/Data/2- Supply and Technical Deck/Situation 47.asset
-  artifactKey: Guid(60f638c4af613c54fadb526cec8e2abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Data/2- Supply and Technical Deck/Situation 47.asset using Guid(60f638c4af613c54fadb526cec8e2abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb4b9ee7cebfc2c08ce8dd3502992907') in 0.004909 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Scripts/Data/2- Supply and Technical Deck/Situation 48.asset
-  artifactKey: Guid(b33df6a41796fb7488a9b858a8c93a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Data/2- Supply and Technical Deck/Situation 48.asset using Guid(b33df6a41796fb7488a9b858a8c93a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9583060ab2786420d2c3bb3f053c03f5') in 0.003584 seconds 
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scripts/Data/3- Staff and Personal Life deck/Situation 48.asset
+  artifactKey: Guid(204f563d41a8c2e4b96cd2dceaa6417b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/3- Staff and Personal Life deck/Situation 48.asset using Guid(204f563d41a8c2e4b96cd2dceaa6417b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '529d7850b5306067b60e19a5f334807e') in 0.003603 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

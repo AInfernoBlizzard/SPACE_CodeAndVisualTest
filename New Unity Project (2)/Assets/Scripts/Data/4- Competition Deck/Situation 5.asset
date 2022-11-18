@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ffe1ac4a8032cd4ea9f0a90e0d32a21, type: 3}
   m_Name: Situation 5
   m_EditorClassIdentifier: 
-  SituationTest: 
-  TextButton1: 
-  TextButton2: 
+  SituationTest: You are noticing that customers are going to Pluto Josephs for better
+    crusts
+  TextButton1: Challenge Pluto Josephs to a race
+  TextButton2: 'Go and argue with Pluto josephs '
   Money_1: 0
   Staff_1: 0
   Equip_1: 0
@@ -24,8 +25,9 @@ MonoBehaviour:
   Staff_2: 0
   Equip_2: 0
   Quality_2: 0
-  Popularity_2: 0
-  Special_1: 
+  Popularity_2: -5
+  Special_1: RacingMiniGame
   Special_2: 
-  Explanation_1: 
-  Explanation_2: 
+  Explanation_1: Your staff are happy that you represented them well
+  Explanation_2: Your voice cracked while yelling
+  Background: {fileID: 21300000, guid: cafeed6d0ce9eae4fb8a0be2fa52e080, type: 3}

@@ -12,20 +12,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ffe1ac4a8032cd4ea9f0a90e0d32a21, type: 3}
   m_Name: Situation 17
   m_EditorClassIdentifier: 
-  SituationTest: 
-  TextButton1: 
-  TextButton2: 
+  SituationTest: While driving home you see a rival pizza delivery man
+  TextButton1: Run him over
+  TextButton2: Honk at them to make them fall
   Money_1: 0
-  Staff_1: 0
+  Staff_1: -5
   Equip_1: 0
   Quality_1: 0
-  Popularity_1: 0
+  Popularity_1: 5
   Money_2: 0
-  Staff_2: 0
+  Staff_2: 5
   Equip_2: 0
   Quality_2: 0
-  Popularity_2: 0
+  Popularity_2: -5
   Special_1: 
   Special_2: 
-  Explanation_1: 
-  Explanation_2: 
+  Explanation_1: They newbie in the car is now scared of you, at least the family
+    now trust you with pizza orders
+  Explanation_2: Ok that was a funny fall
+  Background: {fileID: 21300000, guid: cafeed6d0ce9eae4fb8a0be2fa52e080, type: 3}

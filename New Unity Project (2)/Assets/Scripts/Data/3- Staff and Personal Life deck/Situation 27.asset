@@ -12,20 +12,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ffe1ac4a8032cd4ea9f0a90e0d32a21, type: 3}
   m_Name: Situation 27
   m_EditorClassIdentifier: 
-  SituationTest: 
-  TextButton1: 
-  TextButton2: 
-  Money_1: 0
-  Staff_1: 0
+  SituationTest: A staff member asks if they can have early pay to pay their rent
+  TextButton1: Pay them only
+  TextButton2: Apologize but say you cannot
+  Money_1: -5
+  Staff_1: 5
   Equip_1: 0
   Quality_1: 0
   Popularity_1: 0
   Money_2: 0
-  Staff_2: 0
+  Staff_2: -5
   Equip_2: 0
   Quality_2: 0
   Popularity_2: 0
   Special_1: 
   Special_2: 
-  Explanation_1: 
-  Explanation_2: 
+  Explanation_1: They then went and brought games
+  Explanation_2: 'You notice they mumble something about not getting Road maker:
+    The game'
+  Background: {fileID: 21300000, guid: 0f9188d5083c0bf45adb057b0375b62d, type: 3}

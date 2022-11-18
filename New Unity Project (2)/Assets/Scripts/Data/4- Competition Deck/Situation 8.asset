@@ -12,20 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ffe1ac4a8032cd4ea9f0a90e0d32a21, type: 3}
   m_Name: Situation 8
   m_EditorClassIdentifier: 
-  SituationTest: 
-  TextButton1: 
-  TextButton2: 
-  Money_1: 0
-  Staff_1: 0
-  Equip_1: 0
-  Quality_1: 0
-  Popularity_1: 0
-  Money_2: 0
-  Staff_2: 0
-  Equip_2: 0
-  Quality_2: 0
-  Popularity_2: 0
+  SituationTest: Roll up roll up and win a new auto pizza roller
+  TextButton1: Sign up
+  TextButton2: Sign up
+  Money_1: 5
+  Staff_1: 5
+  Equip_1: 5
+  Quality_1: 5
+  Popularity_1: 5
+  Money_2: 5
+  Staff_2: 5
+  Equip_2: 5
+  Quality_2: 5
+  Popularity_2: 5
   Special_1: 
   Special_2: 
-  Explanation_1: 
-  Explanation_2: 
+  Explanation_1: You won
+  Explanation_2: You won
+  Background: {fileID: 21300000, guid: cafeed6d0ce9eae4fb8a0be2fa52e080, type: 3}

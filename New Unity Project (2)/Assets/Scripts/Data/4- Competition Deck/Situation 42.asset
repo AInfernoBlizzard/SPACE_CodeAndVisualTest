@@ -12,20 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ffe1ac4a8032cd4ea9f0a90e0d32a21, type: 3}
   m_Name: Situation 42
   m_EditorClassIdentifier: 
-  SituationTest: 
-  TextButton1: 
-  TextButton2: 
-  Money_1: 0
+  SituationTest: A rival offers to truce until a meteor storm is over
+  TextButton1: Take the truce
+  TextButton2: You're on your own
+  Money_1: 5
   Staff_1: 0
-  Equip_1: 0
+  Equip_1: -5
   Quality_1: 0
   Popularity_1: 0
   Money_2: 0
   Staff_2: 0
-  Equip_2: 0
+  Equip_2: -5
   Quality_2: 0
-  Popularity_2: 0
+  Popularity_2: -5
   Special_1: 
   Special_2: 
-  Explanation_1: 
-  Explanation_2: 
+  Explanation_1: They defend your shop, you defend theirs
+  Explanation_2: They walk off sadly, before a meteor hits your shop
+  Background: {fileID: 21300000, guid: cafeed6d0ce9eae4fb8a0be2fa52e080, type: 3}

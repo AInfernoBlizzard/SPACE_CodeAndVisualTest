@@ -12,20 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ffe1ac4a8032cd4ea9f0a90e0d32a21, type: 3}
   m_Name: Situation 12
   m_EditorClassIdentifier: 
-  SituationTest: 
-  TextButton1: 
-  TextButton2: 
+  SituationTest: "The owner of Dipperno\u2019s has tried to steal your chefs"
+  TextButton1: Slap them
+  TextButton2: He must go!
   Money_1: 0
-  Staff_1: 0
+  Staff_1: 5
   Equip_1: 0
   Quality_1: 0
   Popularity_1: 0
-  Money_2: 0
-  Staff_2: 0
+  Money_2: 5
+  Staff_2: -5
   Equip_2: 0
   Quality_2: 0
   Popularity_2: 0
   Special_1: 
   Special_2: 
-  Explanation_1: 
-  Explanation_2: 
+  Explanation_1: Silly billy, he's mine
+  Explanation_2: Well at least we can cut down on wages
+  Background: {fileID: 21300000, guid: cafeed6d0ce9eae4fb8a0be2fa52e080, type: 3}

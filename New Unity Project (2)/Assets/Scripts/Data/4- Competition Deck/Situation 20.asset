@@ -12,20 +12,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ffe1ac4a8032cd4ea9f0a90e0d32a21, type: 3}
   m_Name: Situation 20
   m_EditorClassIdentifier: 
-  SituationTest: 
-  TextButton1: 
-  TextButton2: 
+  SituationTest: "You walk past another shop and notice they\u2019re closed but the
+    doors are not locked"
+  TextButton1: Break in
+  TextButton2: Stealing is wrong
   Money_1: 0
   Staff_1: 0
   Equip_1: 0
   Quality_1: 0
   Popularity_1: 0
-  Money_2: 0
-  Staff_2: 0
-  Equip_2: 0
-  Quality_2: 0
-  Popularity_2: 0
-  Special_1: 
+  Money_2: 5
+  Staff_2: 5
+  Equip_2: 5
+  Quality_2: 5
+  Popularity_2: 5
+  Special_1: Instant loss
   Special_2: 
-  Explanation_1: 
-  Explanation_2: 
+  Explanation_1: Enjoy prision
+  Explanation_2: Got your morals in check
+  Background: {fileID: 21300000, guid: cafeed6d0ce9eae4fb8a0be2fa52e080, type: 3}

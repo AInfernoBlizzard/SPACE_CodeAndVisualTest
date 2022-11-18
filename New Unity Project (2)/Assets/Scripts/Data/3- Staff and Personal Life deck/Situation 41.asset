@@ -12,20 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ffe1ac4a8032cd4ea9f0a90e0d32a21, type: 3}
   m_Name: Situation 41
   m_EditorClassIdentifier: 
-  SituationTest: 
-  TextButton1: 
-  TextButton2: 
+  SituationTest: A few of your staff invite you out to play basketball
+  TextButton1: Go play with them
+  TextButton2: Maybe another day
   Money_1: 0
   Staff_1: 0
   Equip_1: 0
   Quality_1: 0
   Popularity_1: 0
   Money_2: 0
-  Staff_2: 0
+  Staff_2: -5
   Equip_2: 0
   Quality_2: 0
   Popularity_2: 0
-  Special_1: 
+  Special_1: BasketballMinigame
   Special_2: 
-  Explanation_1: 
-  Explanation_2: 
+  Explanation_1: They shoot, they score
+  Explanation_2: Disappointedly, they go to play ball
+  Background: {fileID: 21300000, guid: 0f9188d5083c0bf45adb057b0375b62d, type: 3}

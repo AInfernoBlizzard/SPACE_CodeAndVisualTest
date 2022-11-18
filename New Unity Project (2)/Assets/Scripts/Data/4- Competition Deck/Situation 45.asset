@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ffe1ac4a8032cd4ea9f0a90e0d32a21, type: 3}
   m_Name: Situation 45
   m_EditorClassIdentifier: 
-  SituationTest: 
-  TextButton1: 
-  TextButton2: 
-  Money_1: 0
+  SituationTest: "You have the urge to graffiti a rival\u2019s banner"
+  TextButton1: Graffiti it
+  TextButton2: That is immature
+  Money_1: 5
   Staff_1: 0
   Equip_1: 0
   Quality_1: 0
@@ -24,8 +24,9 @@ MonoBehaviour:
   Staff_2: 0
   Equip_2: 0
   Quality_2: 0
-  Popularity_2: 0
+  Popularity_2: -5
   Special_1: 
   Special_2: 
-  Explanation_1: 
-  Explanation_2: 
+  Explanation_1: Spray your colours
+  Explanation_2: No fun
+  Background: {fileID: 21300000, guid: cafeed6d0ce9eae4fb8a0be2fa52e080, type: 3}

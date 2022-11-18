@@ -12,20 +12,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ffe1ac4a8032cd4ea9f0a90e0d32a21, type: 3}
   m_Name: Situation 30
   m_EditorClassIdentifier: 
-  SituationTest: 
-  TextButton1: 
-  TextButton2: 
+  SituationTest: A rude customer is insulting your pizzas
+  TextButton1: Order from a rival and test their opinion
+  TextButton2: "Apologize and say you\u2019ll get them a rival\u2019s pizza, but
+    serve your own"
   Money_1: 0
   Staff_1: 0
   Equip_1: 0
-  Quality_1: 0
+  Quality_1: -5
   Popularity_1: 0
-  Money_2: 0
+  Money_2: 5
   Staff_2: 0
   Equip_2: 0
   Quality_2: 0
   Popularity_2: 0
   Special_1: 
   Special_2: 
-  Explanation_1: 
-  Explanation_2: 
+  Explanation_1: They still insulted it, thinking it was your own
+  Explanation_2: "They said they loved it and paid for the \u2018rivals\u2019 pizza"
+  Background: {fileID: 21300000, guid: cafeed6d0ce9eae4fb8a0be2fa52e080, type: 3}

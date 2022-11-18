@@ -12,20 +12,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ffe1ac4a8032cd4ea9f0a90e0d32a21, type: 3}
   m_Name: Situation 23
   m_EditorClassIdentifier: 
-  SituationTest: 
-  TextButton1: 
-  TextButton2: 
+  SituationTest: You notice a staff member crying in the staff room because of a
+    rude customer
+  TextButton1: Kick the customer out
+  TextButton2: Service is service now get back out there
   Money_1: 0
-  Staff_1: 0
+  Staff_1: 5
   Equip_1: 0
   Quality_1: 0
-  Popularity_1: 0
+  Popularity_1: -5
   Money_2: 0
-  Staff_2: 0
+  Staff_2: -5
   Equip_2: 0
   Quality_2: 0
-  Popularity_2: 0
+  Popularity_2: 5
   Special_1: 
   Special_2: 
-  Explanation_1: 
-  Explanation_2: 
+  Explanation_1: "We have no time for Kosmic Karen\u2019s"
+  Explanation_2: Damn, you are really cruel
+  Background: {fileID: 21300000, guid: 0f9188d5083c0bf45adb057b0375b62d, type: 3}

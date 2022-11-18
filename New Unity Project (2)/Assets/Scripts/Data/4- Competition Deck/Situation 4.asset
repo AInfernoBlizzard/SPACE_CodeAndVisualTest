@@ -12,20 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ffe1ac4a8032cd4ea9f0a90e0d32a21, type: 3}
   m_Name: Situation 4
   m_EditorClassIdentifier: 
-  SituationTest: 
-  TextButton1: 
-  TextButton2: 
-  Money_1: 0
+  SituationTest: 'There is a shooting star in the sky. What do you wish for '
+  TextButton1: I wish for more popularity and money
+  TextButton2: I wish for my staff to be happy and my quality to increase
+  Money_1: 5
   Staff_1: 0
   Equip_1: 0
   Quality_1: 0
-  Popularity_1: 0
+  Popularity_1: 5
   Money_2: 0
-  Staff_2: 0
+  Staff_2: 5
   Equip_2: 0
-  Quality_2: 0
+  Quality_2: 5
   Popularity_2: 0
   Special_1: 
   Special_2: 
-  Explanation_1: 
-  Explanation_2: 
+  Explanation_1: What a beautiful thing
+  Explanation_2: How cute
+  Background: {fileID: 21300000, guid: cafeed6d0ce9eae4fb8a0be2fa52e080, type: 3}

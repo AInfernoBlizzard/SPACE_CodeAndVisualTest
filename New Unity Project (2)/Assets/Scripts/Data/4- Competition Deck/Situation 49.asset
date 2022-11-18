@@ -12,20 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ffe1ac4a8032cd4ea9f0a90e0d32a21, type: 3}
   m_Name: Situation 49
   m_EditorClassIdentifier: 
-  SituationTest: 
-  TextButton1: 
-  TextButton2: 
+  SituationTest: A flood is hitting a rival store
+  TextButton1: Go and help
+  TextButton2: Sit and watch
   Money_1: 0
   Staff_1: 0
-  Equip_1: 0
+  Equip_1: 5
   Quality_1: 0
   Popularity_1: 0
-  Money_2: 0
+  Money_2: -5
   Staff_2: 0
   Equip_2: 0
   Quality_2: 0
   Popularity_2: 0
   Special_1: 
   Special_2: 
-  Explanation_1: 
-  Explanation_2: 
+  Explanation_1: They appreciate and give a gift
+  Explanation_2: Everyone blames you
+  Background: {fileID: 21300000, guid: cafeed6d0ce9eae4fb8a0be2fa52e080, type: 3}

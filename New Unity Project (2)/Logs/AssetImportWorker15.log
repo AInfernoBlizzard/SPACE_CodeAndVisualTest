@@ -1,0 +1,506 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.6f1 (7da38d85baf6) revision 8233869'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Core' Language: 'en' Physical Memory: 16169 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker15
+-projectPath
+C:/Users/adems/Downloads/15.11 SPACE/SPACE/New Unity Project (2)
+-logFile
+Logs/AssetImportWorker15.log
+-srvPort
+59219
+Successfully changed project path to: C:/Users/adems/Downloads/15.11 SPACE/SPACE/New Unity Project (2)
+C:/Users/adems/Downloads/15.11 SPACE/SPACE/New Unity Project (2)
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 109.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.6f1 (7da38d85baf6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/adems/Downloads/15.11 SPACE/SPACE/New Unity Project (2)/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2191)
+    Vendor:   NVIDIA
+    VRAM:     5991 MB
+    Driver:   30.0.15.1278
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56940
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.012949 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 105.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.821 seconds
+Domain Reload Profiling:
+	ReloadAssembly (822ms)
+		BeginReloadAssembly (103ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (570ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (124ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (346ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (106ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (169ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.012535 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\adems\Downloads\15.11 SPACE\SPACE\New Unity Project (2)\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\adems\Downloads\15.11 SPACE\SPACE\New Unity Project (2)\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.331 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1332ms)
+		BeginReloadAssembly (147ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (1026ms)
+			LoadAssemblies (123ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (314ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (475ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (124ms)
+				ProcessInitializeOnLoadAttributes (291ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3375 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (111.0 KB). Loaded Objects now: 3833.
+Memory consumption went from 116.1 MB to 116.0 MB.
+Total: 3.852000 ms (FindLiveObjects: 0.443200 ms CreateObjectMapping: 0.312700 ms MarkObjects: 2.989700 ms  DeleteObjects: 0.105600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 617159.742898 seconds.
+  path: Assets/Scripts/Data/3- Staff and Personal Life deck/Situation 21.asset
+  artifactKey: Guid(be35042acf13bc247940d81c3a878e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/3- Staff and Personal Life deck/Situation 21.asset using Guid(be35042acf13bc247940d81c3a878e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3cd84a62ef012278b6dcb0acebd690f') in 0.043650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.276858 seconds.
+  path: Assets/Scripts/Data/3- Staff and Personal Life deck/Situation 25.asset
+  artifactKey: Guid(9911a423b24daab4b930392a81f4145d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/3- Staff and Personal Life deck/Situation 25.asset using Guid(9911a423b24daab4b930392a81f4145d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e2051c30f20d194e80c6c8d763eb033') in 0.003596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 121.528009 seconds.
+  path: Assets/Scripts/Data/3- Staff and Personal Life deck/Situation 2.asset
+  artifactKey: Guid(20170d2791ed7344bbc07e66de760f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/3- Staff and Personal Life deck/Situation 2.asset using Guid(20170d2791ed7344bbc07e66de760f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a18f67f5257efcaef297bc0f7d0ef109') in 0.011456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Scripts/Data/3- Staff and Personal Life deck/Situation 4.asset
+  artifactKey: Guid(c9624ba7ee2bdc94b9329a146ebe0e62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/3- Staff and Personal Life deck/Situation 4.asset using Guid(c9624ba7ee2bdc94b9329a146ebe0e62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a8f08004c7dd7736b46ce4292789452') in 0.007465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 62.550854 seconds.
+  path: Assets/Scripts/Data/3- Staff and Personal Life deck/Situation 26.asset
+  artifactKey: Guid(0706277e0456c4d44a4638315f9ded3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/3- Staff and Personal Life deck/Situation 26.asset using Guid(0706277e0456c4d44a4638315f9ded3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beff63cb88cd94a394aa1b3ba1b21dbb') in 0.003577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004680 seconds.
+  path: Assets/Scripts/Data/3- Staff and Personal Life deck/Situation 29.asset
+  artifactKey: Guid(f4a7b6d23c518434b92e9096fb260d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/3- Staff and Personal Life deck/Situation 29.asset using Guid(f4a7b6d23c518434b92e9096fb260d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93dbd9244c0c8483709499f4133308ac') in 0.003481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004208 seconds.
+  path: Assets/Scripts/Data/3- Staff and Personal Life deck/Situation 31.asset
+  artifactKey: Guid(7d4c8ed5e48025b49a04c42c47532850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/3- Staff and Personal Life deck/Situation 31.asset using Guid(7d4c8ed5e48025b49a04c42c47532850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60aae1b971ed04c4153397475dc5677b') in 0.004689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Scripts/Data/3- Staff and Personal Life deck/Situation 32.asset
+  artifactKey: Guid(d10384c842f0c9f43852df9115a5bb21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/3- Staff and Personal Life deck/Situation 32.asset using Guid(d10384c842f0c9f43852df9115a5bb21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '727ea10a494460536a61abeef881d3e5') in 0.003665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Scripts/Data/3- Staff and Personal Life deck/Situation 35.asset
+  artifactKey: Guid(cfa4636f7e3f8ac469faa2846540f37b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/3- Staff and Personal Life deck/Situation 35.asset using Guid(cfa4636f7e3f8ac469faa2846540f37b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d74bfbc8915872f9d7d14357966cb95') in 0.003975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scripts/Data/3- Staff and Personal Life deck/Situation 36.asset
+  artifactKey: Guid(eff77987fcb04fa4aa4cb7e59c3e08c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/3- Staff and Personal Life deck/Situation 36.asset using Guid(eff77987fcb04fa4aa4cb7e59c3e08c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c4153db0dcdfbe053a24efb8af642db') in 0.004816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.569571 seconds.
+  path: Assets/Scripts/Data/3- Staff and Personal Life deck/Situation 37.asset
+  artifactKey: Guid(cb89b7bdb9b694146b8a11681f6ed294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/3- Staff and Personal Life deck/Situation 37.asset using Guid(cb89b7bdb9b694146b8a11681f6ed294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d5ce247330eb93628b201b8875341b6') in 0.004039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 79.940231 seconds.
+  path: Assets/Scripts/Data/3- Staff and Personal Life deck/Situation 39.asset
+  artifactKey: Guid(d78713fae48a7e74b9a0615d95064991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/3- Staff and Personal Life deck/Situation 39.asset using Guid(d78713fae48a7e74b9a0615d95064991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cab10e45fc4020777ff879db729c0217') in 0.003651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005202 seconds.
+  path: Assets/Scripts/Data/3- Staff and Personal Life deck/Situation 41.asset
+  artifactKey: Guid(b8ae079d6ab7f7b429e690c8e2c0f0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/3- Staff and Personal Life deck/Situation 41.asset using Guid(b8ae079d6ab7f7b429e690c8e2c0f0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '378d61dd6cd85975516fa043ca65dc01') in 0.004887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Scripts/Data/3- Staff and Personal Life deck/Situation 44.asset
+  artifactKey: Guid(3639b9d6af210144b9878a56daea03e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/3- Staff and Personal Life deck/Situation 44.asset using Guid(3639b9d6af210144b9878a56daea03e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57f39906ce4b7b8f6b39888dea0bac66') in 0.004336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scripts/Data/3- Staff and Personal Life deck/Situation 43.asset
+  artifactKey: Guid(9b2df8ace0584f343bd2c083c2d689f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/3- Staff and Personal Life deck/Situation 43.asset using Guid(9b2df8ace0584f343bd2c083c2d689f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9571984463abcac1b2b10bf9724c9b29') in 0.003326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 62.714546 seconds.
+  path: Assets/Scripts/Data/3- Staff and Personal Life deck/Situation 45.asset
+  artifactKey: Guid(30ed7a6df11c0244cbb7b550e25fc9a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/3- Staff and Personal Life deck/Situation 45.asset using Guid(30ed7a6df11c0244cbb7b550e25fc9a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99af4cc7b32852bdaeade5b5a05eb70c') in 0.003577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004578 seconds.
+  path: Assets/Scripts/Data/3- Staff and Personal Life deck/Situation 49.asset
+  artifactKey: Guid(867237b59ef77404e9635ec2adb20ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/3- Staff and Personal Life deck/Situation 49.asset using Guid(867237b59ef77404e9635ec2adb20ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '315a9321637f8ade84a4d426d3473c8c') in 0.005214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Scripts/Data/3- Staff and Personal Life deck/Situation 50.asset
+  artifactKey: Guid(7a9711bb20068b64f8437f2830eb77dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/3- Staff and Personal Life deck/Situation 50.asset using Guid(7a9711bb20068b64f8437f2830eb77dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a289bc44df5b74fafbf662d40137210') in 0.003942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Scripts/Data/3- Staff and Personal Life deck/Situation 48.asset
+  artifactKey: Guid(204f563d41a8c2e4b96cd2dceaa6417b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/3- Staff and Personal Life deck/Situation 48.asset using Guid(204f563d41a8c2e4b96cd2dceaa6417b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '135d4be45cd21688d54cac420ab37e8f') in 0.004072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scripts/Data/3- Staff and Personal Life deck/Situation 47.asset
+  artifactKey: Guid(fe4e1a307133aa748894604c3dea8290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/3- Staff and Personal Life deck/Situation 47.asset using Guid(fe4e1a307133aa748894604c3dea8290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7951e4911649a970af339b200b6530c') in 0.003889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.888577 seconds.
+  path: Assets/Scripts/Data/3- Staff and Personal Life deck/Situation 50.asset
+  artifactKey: Guid(7a9711bb20068b64f8437f2830eb77dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/3- Staff and Personal Life deck/Situation 50.asset using Guid(7a9711bb20068b64f8437f2830eb77dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f3fb22575223e3eda9be32b43a49510') in 0.003818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1009.506738 seconds.
+  path: Assets/Scripts/Data/4- Competition Deck/Situation 1.asset
+  artifactKey: Guid(0a558bea32c2b9543905ea6cef8def57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/4- Competition Deck/Situation 1.asset using Guid(0a558bea32c2b9543905ea6cef8def57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '577c9c307ef8a69430b118fb0fa8b8cf') in 0.003461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.140535 seconds.
+  path: Assets/Scripts/Data/4- Competition Deck/Situation 5.asset
+  artifactKey: Guid(b9e19398ab363df4b915ccc3407e9000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/4- Competition Deck/Situation 5.asset using Guid(b9e19398ab363df4b915ccc3407e9000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1082aeb72a75951f04b6faecd46f1ee6') in 0.003762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.176092 seconds.
+  path: Assets/Scripts/Data/4- Competition Deck/Situation 6.asset
+  artifactKey: Guid(4d1b6aeaca886d446a8a57ada5488705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/4- Competition Deck/Situation 6.asset using Guid(4d1b6aeaca886d446a8a57ada5488705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26347542ef23dbfcdb25da7d2820f46a') in 0.003911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.154335 seconds.
+  path: Assets/Scripts/Data/4- Competition Deck/Situation 10.asset
+  artifactKey: Guid(8c8882fe343740e49b480ea9864cd35f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/4- Competition Deck/Situation 10.asset using Guid(8c8882fe343740e49b480ea9864cd35f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ca67f99103e1b8ea38c11e0d3fa426b') in 0.003897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scripts/Data/4- Competition Deck/Situation 20.asset
+  artifactKey: Guid(85c53e3caf979fe41b1b4205f2ba423e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/4- Competition Deck/Situation 20.asset using Guid(85c53e3caf979fe41b1b4205f2ba423e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57b76dc76411b392c39e9c841ef2f7ad') in 0.003997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Scripts/Data/4- Competition Deck/Situation 17.asset
+  artifactKey: Guid(79f8b7c2d34163b488e4174dd825b86c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/4- Competition Deck/Situation 17.asset using Guid(79f8b7c2d34163b488e4174dd825b86c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c4efb24f655bc1d090bc4bfc79d4266') in 0.004310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scripts/Data/4- Competition Deck/Situation 16.asset
+  artifactKey: Guid(a4872473112b70d4d8048b098b5832c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/4- Competition Deck/Situation 16.asset using Guid(a4872473112b70d4d8048b098b5832c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e70eb1ba337a27c3e5beed772cfef62') in 0.005126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scripts/Data/4- Competition Deck/Situation 19.asset
+  artifactKey: Guid(1d460eddfbff72243aee94e4405b56bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/4- Competition Deck/Situation 19.asset using Guid(1d460eddfbff72243aee94e4405b56bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '985a8b9ce5afd5b4dc1c87bd2e3fded8') in 0.004051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Scripts/Data/4- Competition Deck/Situation 21.asset
+  artifactKey: Guid(51037e5b77b1c344eb9a4f05bbdf5f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/4- Competition Deck/Situation 21.asset using Guid(51037e5b77b1c344eb9a4f05bbdf5f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bd363dfc8e042a40220971585e472dc') in 0.003762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scripts/Data/4- Competition Deck/Situation 18.asset
+  artifactKey: Guid(8e26368c6faabd24ba455fe1d5808016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/4- Competition Deck/Situation 18.asset using Guid(8e26368c6faabd24ba455fe1d5808016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '962e718b6d9ffbc347b2dc9a6f528825') in 0.004117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scripts/Data/4- Competition Deck/Situation 11.asset
+  artifactKey: Guid(16d35c834302e35429b2d023b4837856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/4- Competition Deck/Situation 11.asset using Guid(16d35c834302e35429b2d023b4837856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '799765c352c0131bcf26751c53a24bb6') in 0.003963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 62.450205 seconds.
+  path: Assets/Scripts/Data/4- Competition Deck/Situation 22.asset
+  artifactKey: Guid(fe2327cc9ed1c1148b937d726cfec1a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/4- Competition Deck/Situation 22.asset using Guid(fe2327cc9ed1c1148b937d726cfec1a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ee58e0de72d6d092eed162b5857dadb') in 0.004136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Scripts/Data/4- Competition Deck/Situation 26.asset
+  artifactKey: Guid(6c6b54a54b805764b9a4b8ab8d429d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/4- Competition Deck/Situation 26.asset using Guid(6c6b54a54b805764b9a4b8ab8d429d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f94ed2632415ab373a2c0d04537a5786') in 0.004496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020413 seconds.
+  path: Assets/Scripts/Data/4- Competition Deck/Situation 27.asset
+  artifactKey: Guid(e11634bc1440c2048ac2bbec02e3dda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/4- Competition Deck/Situation 27.asset using Guid(e11634bc1440c2048ac2bbec02e3dda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a02f06dfe595b043b4f8daaa3aad4d4d') in 0.003914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scripts/Data/4- Competition Deck/Situation 31.asset
+  artifactKey: Guid(38fe0e0e0e16dc3478c28ee76b5d59d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/4- Competition Deck/Situation 31.asset using Guid(38fe0e0e0e16dc3478c28ee76b5d59d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cba431e5a5703ba3946f3f410e685f15') in 0.003691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 182.439903 seconds.
+  path: Assets/Scripts/Data/4- Competition Deck/Situation 32.asset
+  artifactKey: Guid(c06841ae839323442be23ff8d591022a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/4- Competition Deck/Situation 32.asset using Guid(c06841ae839323442be23ff8d591022a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1928c579cf174360ff40f9b0f917a966') in 0.003216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.115252 seconds.
+  path: Assets/Scripts/Data/4- Competition Deck/Situation 34.asset
+  artifactKey: Guid(fc4f9499cba9f41498a5edd4cf4ab110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/4- Competition Deck/Situation 34.asset using Guid(fc4f9499cba9f41498a5edd4cf4ab110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8a7a7baed4346b1f7e1e4de336e3bdc') in 0.003594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.212874 seconds.
+  path: Assets/Scripts/Data/4- Competition Deck/Situation 37.asset
+  artifactKey: Guid(0d70989e619d1584bbc4fd6eab9c52cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/4- Competition Deck/Situation 37.asset using Guid(0d70989e619d1584bbc4fd6eab9c52cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67dfd912cbbe5db5c5ea0eb7fcbfc86e') in 0.005541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Scripts/Data/4- Competition Deck/Situation 39.asset
+  artifactKey: Guid(eb0058a954a9f3f4fb0a5b3c84058290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/4- Competition Deck/Situation 39.asset using Guid(eb0058a954a9f3f4fb0a5b3c84058290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efcf55d5b838dea4cee4866e2d05078a') in 0.003639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.396303 seconds.
+  path: Assets/Scripts/Data/4- Competition Deck/Situation 42.asset
+  artifactKey: Guid(fb1ea64f13665524fb83f238699ac8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/4- Competition Deck/Situation 42.asset using Guid(fb1ea64f13665524fb83f238699ac8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bba56196a8fea02179c50473f5bf6a19') in 0.003420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Scripts/Data/4- Competition Deck/Situation 46.asset
+  artifactKey: Guid(b42c2014fefb3f84e94ce7597fff1fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/4- Competition Deck/Situation 46.asset using Guid(b42c2014fefb3f84e94ce7597fff1fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63c5f38d2184ce56ff9a2d5b80d75eab') in 0.003422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.539374 seconds.
+  path: Assets/Scripts/Data/4- Competition Deck/Situation 47.asset
+  artifactKey: Guid(c47f1c272d3321344b6594e89410d3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/4- Competition Deck/Situation 47.asset using Guid(c47f1c272d3321344b6594e89410d3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4cbcaa9355b80c0e6d09a2a7aed2fd7') in 0.010762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Scripts/Data/4- Competition Deck/Situation 50.asset
+  artifactKey: Guid(17ed91e8af2de9e41a3cb567782d45df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/4- Competition Deck/Situation 50.asset using Guid(17ed91e8af2de9e41a3cb567782d45df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '245bfa08cbb0567e87b41f6025a760e0') in 0.010436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 64.082023 seconds.
+  path: Assets/Scripts/Data/4- Competition Deck/Situation 31.asset
+  artifactKey: Guid(38fe0e0e0e16dc3478c28ee76b5d59d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/4- Competition Deck/Situation 31.asset using Guid(38fe0e0e0e16dc3478c28ee76b5d59d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f4abfd60c846db6e1191f989c7ffd39') in 0.003200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.067358 seconds.
+  path: Assets/Scripts/Data/4- Competition Deck/Situation 34.asset
+  artifactKey: Guid(fc4f9499cba9f41498a5edd4cf4ab110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/4- Competition Deck/Situation 34.asset using Guid(fc4f9499cba9f41498a5edd4cf4ab110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c298978111f5af95e25513cc2669280') in 0.003798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.054640 seconds.
+  path: Assets/Scripts/Data/4- Competition Deck/Situation 38.asset
+  artifactKey: Guid(1b255f3233983984783921b90b583cfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/4- Competition Deck/Situation 38.asset using Guid(1b255f3233983984783921b90b583cfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd55f8662590ad14a0cbf3d7136dee4b') in 0.003663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scripts/Data/4- Competition Deck/Situation 41.asset
+  artifactKey: Guid(206b061d95bd7ac47bc71e75aac941eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/4- Competition Deck/Situation 41.asset using Guid(206b061d95bd7ac47bc71e75aac941eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67453a85dc495dc5492c1c575eb5d6a3') in 0.003672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scripts/Data/4- Competition Deck/Situation 36.asset
+  artifactKey: Guid(37c44ca59f31df540971fc03ca92c9c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/4- Competition Deck/Situation 36.asset using Guid(37c44ca59f31df540971fc03ca92c9c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '786aa5d44c7dbe7a1ed3c267f76574f5') in 0.003158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.554875 seconds.
+  path: Assets/Scripts/Data/4- Competition Deck/Situation 41.asset
+  artifactKey: Guid(206b061d95bd7ac47bc71e75aac941eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/4- Competition Deck/Situation 41.asset using Guid(206b061d95bd7ac47bc71e75aac941eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfa5d18cae9d4cd8fa59c0a8a2fa8247') in 0.003324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.752311 seconds.
+  path: Assets/Scripts/Data/4- Competition Deck/Situation 5.asset
+  artifactKey: Guid(b9e19398ab363df4b915ccc3407e9000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/4- Competition Deck/Situation 5.asset using Guid(b9e19398ab363df4b915ccc3407e9000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4831f48172fed5e694bbbe183e0d2af9') in 0.004580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.122714 seconds.
+  path: Assets/Scripts/Data/4- Competition Deck/Situation 10.asset
+  artifactKey: Guid(8c8882fe343740e49b480ea9864cd35f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/4- Competition Deck/Situation 10.asset using Guid(8c8882fe343740e49b480ea9864cd35f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5efee69429c2518131a7603124c3ba31') in 0.011048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Scripts/Data/4- Competition Deck/Situation 20.asset
+  artifactKey: Guid(85c53e3caf979fe41b1b4205f2ba423e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/4- Competition Deck/Situation 20.asset using Guid(85c53e3caf979fe41b1b4205f2ba423e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d8bc92f2b1cffa25dabfaa8a67074f6') in 0.004277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scripts/Data/4- Competition Deck/Situation 19.asset
+  artifactKey: Guid(1d460eddfbff72243aee94e4405b56bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/4- Competition Deck/Situation 19.asset using Guid(1d460eddfbff72243aee94e4405b56bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f794d1033155fb3e602293e4877e3dc') in 0.005008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.259566 seconds.
+  path: Assets/Scripts/Data/4- Competition Deck/Situation 22.asset
+  artifactKey: Guid(fe2327cc9ed1c1148b937d726cfec1a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/4- Competition Deck/Situation 22.asset using Guid(fe2327cc9ed1c1148b937d726cfec1a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47fcc82421b1b71064e5f9cab85c3989') in 0.004217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Scripts/Data/4- Competition Deck/Situation 26.asset
+  artifactKey: Guid(6c6b54a54b805764b9a4b8ab8d429d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/4- Competition Deck/Situation 26.asset using Guid(6c6b54a54b805764b9a4b8ab8d429d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04274d66623901229e3e94bd773c14b4') in 0.003418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Scripts/Data/4- Competition Deck/Situation 27.asset
+  artifactKey: Guid(e11634bc1440c2048ac2bbec02e3dda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/4- Competition Deck/Situation 27.asset using Guid(e11634bc1440c2048ac2bbec02e3dda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3bf4d5671b5b6c27abddf2950e631e4') in 0.005109 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

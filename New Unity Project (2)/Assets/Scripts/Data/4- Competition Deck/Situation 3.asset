@@ -12,20 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ffe1ac4a8032cd4ea9f0a90e0d32a21, type: 3}
   m_Name: Situation 3
   m_EditorClassIdentifier: 
-  SituationTest: 
-  TextButton1: 
-  TextButton2: 
-  Money_1: 0
+  SituationTest: The pizza of the galaxy award is coming soon
+  TextButton1: Release a new pizza to create attention
+  TextButton2: Offer deals to create attention
+  Money_1: 5
   Staff_1: 0
-  Equip_1: 0
+  Equip_1: -5
   Quality_1: 0
   Popularity_1: 0
-  Money_2: 0
+  Money_2: -5
   Staff_2: 0
   Equip_2: 0
   Quality_2: 0
-  Popularity_2: 0
+  Popularity_2: 5
   Special_1: 
-  Special_2: 
-  Explanation_1: 
-  Explanation_2: 
+  Special_2: GalaxiesFavourite
+  Explanation_1: It did good
+  Explanation_2: A lot of service is coming to yours now
+  Background: {fileID: 21300000, guid: cafeed6d0ce9eae4fb8a0be2fa52e080, type: 3}

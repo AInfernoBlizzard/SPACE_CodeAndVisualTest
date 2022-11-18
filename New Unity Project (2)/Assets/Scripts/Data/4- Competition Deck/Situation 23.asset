@@ -12,20 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ffe1ac4a8032cd4ea9f0a90e0d32a21, type: 3}
   m_Name: Situation 23
   m_EditorClassIdentifier: 
-  SituationTest: 
-  TextButton1: 
-  TextButton2: 
+  SituationTest: A rival shop has brought a blimp
+  TextButton1: Cut the rope with a sharp piece of chilli
+  TextButton2: Throw pizza cutters to pop it
   Money_1: 0
   Staff_1: 0
   Equip_1: 0
-  Quality_1: 0
-  Popularity_1: 0
+  Quality_1: -5
+  Popularity_1: 5
   Money_2: 0
   Staff_2: 0
-  Equip_2: 0
+  Equip_2: -5
   Quality_2: 0
-  Popularity_2: 0
+  Popularity_2: 5
   Special_1: 
   Special_2: 
-  Explanation_1: 
-  Explanation_2: 
+  Explanation_1: You watch as it flies away
+  Explanation_2: It only took 35 cutters
+  Background: {fileID: 21300000, guid: cafeed6d0ce9eae4fb8a0be2fa52e080, type: 3}
