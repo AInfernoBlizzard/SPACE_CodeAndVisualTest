@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Scene/TrueEnding.unity
+- path: Assets/Scenes/Scene/MiniGames/Joypad.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
