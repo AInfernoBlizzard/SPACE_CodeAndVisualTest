@@ -21,11 +21,11 @@ MonoBehaviour:
   Equip_1: 0
   Quality_1: 0
   Popularity_1: -5
-  Money_2: 0
-  Staff_2: 0
-  Equip_2: 0
-  Quality_2: 0
-  Popularity_2: 0
+  Money_2: -100
+  Staff_2: -100
+  Equip_2: -100
+  Quality_2: -100
+  Popularity_2: -100
   Special_1: 
   Special_2: InstantLoss
   Explanation_1: They do not understand the struggles

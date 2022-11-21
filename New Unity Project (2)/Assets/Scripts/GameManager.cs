@@ -7,15 +7,12 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public List<Event_Template> eventDeck;
-
-
     
     public float Money;
     public float Staff;
     public float Equip;
     public float Quality;
     public float Popularity;
-
 
     public float MoneyMultiplier = 1;
     public float StaffMultiplier = 1;
@@ -38,6 +35,13 @@ public class GameManager : MonoBehaviour
     public Text ChoiceTwoText;
 
     public Image GalaxiesFavourite;
+    public Image PizzaGods;
+    public Image PizzaDaddy;
+    public Image WishingStar;
+    public Image Infestation;
+    public Image UniversalMinimumWage;
+    public Image InternetBlackout;
+    public Image PricesYouCannotCompeteAt;
 
     private bool eventSet;
     private bool showAfter;
@@ -142,6 +146,11 @@ public class GameManager : MonoBehaviour
             EndGameCheck();
         }
 
+        if ((Money < 1) && (Quality < 1) && (Equip < 1) && (Popularity < 1) && (Staff < 1))
+        {
+            SceneManager.LoadScene("InstantLoss");
+        }
+
         if (Staff < 1)
         {
             SceneManager.LoadScene("Staff0");
@@ -192,8 +201,11 @@ public class GameManager : MonoBehaviour
             SceneManager.LoadScene("Quality100");
         }
 
+        if (eventDeck.Count < 1)
+        {
+            SceneManager.LoadScene("TrueEnding");
+        }
     }
-
 
     void ResetMultipliers()
     {
@@ -204,75 +216,70 @@ public class GameManager : MonoBehaviour
         QualityMultiplier = 1f;
         PopularityMultiplier = 1f;
     }
-    void MoneyPowerUp(float NumberOfTurns)
-    {
-        ResetMultipliers();
-        MoneyMultiplier = 2f;
-        PowerUpTicker = NumberOfTurns;
-        GalaxiesFavourite.gameObject.transform.parent.gameObject.SetActive(true);
-        //Activate the graphic
-    }
-    void PopularityPowerUp(float NumberOfTurns)
+    void GalaxiesFavouritePowerUp(float NumberOfTurns)
     {
         ResetMultipliers();
         PopularityMultiplier = 2f;
         PowerUpTicker = NumberOfTurns;
+        GalaxiesFavourite.gameObject.transform.parent.gameObject.SetActive(true);
         //Activate the graphic
     }
-    void EquipmentPowerUp(float NumberOfTurns)
+    void PizzaGodsPowerUp(float NumberOfTurns)
     {
         ResetMultipliers();
+        QualityMultiplier = 2f;
         EquipMultiplier = 2f;
         PowerUpTicker = NumberOfTurns;
+        PizzaGods.gameObject.transform.parent.gameObject.SetActive(true);
         //Activate the graphic
     }
-    void StaffPowerUp(float NumberOfTurns)
+    void PizzaDaddyPowerUp(float NumberOfTurns)
+    {
+        ResetMultipliers();
+        MoneyMultiplier = 2f;
+        PowerUpTicker = NumberOfTurns;
+        PizzaDaddy.gameObject.transform.parent.gameObject.SetActive(true);
+        //Activate the graphic
+    }
+    void WishingStarPowerUp(float NumberOfTurns)
     {
         ResetMultipliers();
         StaffMultiplier = 2f;
         PowerUpTicker = NumberOfTurns;
+        WishingStar.gameObject.transform.parent.gameObject.SetActive(true);
         //Activate the graphic
     }
-    void QualityPowerUp(float NumberOfTurns)
+    void UniversalPowerDown(float NumberOfTurns)
     {
         ResetMultipliers();
-        QualityMultiplier = 2f;
-        PowerUpTicker = NumberOfTurns;
-        //Activate the graphic
-    }
-    void MoneyPowerUp2(float NumberOfTurns)
-    {
-        ResetMultipliers();
+        StaffMultiplier = 0.5f;
         MoneyMultiplier = 0.5f;
         PowerUpTicker = NumberOfTurns;
+        UniversalMinimumWage.gameObject.transform.parent.gameObject.SetActive(true);
         //Activate the graphic
     }
-    void PopularityPowerUp2(float NumberOfTurns)
+    void InfestationPowerDown(float NumberOfTurns)
     {
         ResetMultipliers();
         PopularityMultiplier = 0.5f;
         PowerUpTicker = NumberOfTurns;
+        Infestation.gameObject.transform.parent.gameObject.SetActive(true);
         //Activate the graphic
     }
-    void EquipmentPowerUp2(float NumberOfTurns)
+    void InternetBlackoutPowerDown(float NumberOfTurns)
     {
         ResetMultipliers();
         EquipMultiplier = 0.5f;
         PowerUpTicker = NumberOfTurns;
+        InternetBlackout.gameObject.transform.parent.gameObject.SetActive(true);
         //Activate the graphic
     }
-    void StaffPowerUp2(float NumberOfTurns)
+    void PricesYouCannotPowerDown(float NumberOfTurns)
     {
         ResetMultipliers();
-        StaffMultiplier = 0.5f;
+        MoneyMultiplier = 0.5f;
         PowerUpTicker = NumberOfTurns;
-        //Activate the graphic
-    }
-    void QualityPowerUp2(float NumberOfTurns)
-    {
-        ResetMultipliers();
-        QualityMultiplier = 0.5f;
-        PowerUpTicker = NumberOfTurns;
+        PricesYouCannotCompeteAt.gameObject.transform.parent.gameObject.SetActive(true);
         //Activate the graphic
     }
 

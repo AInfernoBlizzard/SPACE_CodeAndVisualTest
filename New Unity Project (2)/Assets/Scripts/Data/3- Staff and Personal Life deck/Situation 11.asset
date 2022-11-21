@@ -12,21 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ffe1ac4a8032cd4ea9f0a90e0d32a21, type: 3}
   m_Name: Situation 11
   m_EditorClassIdentifier: 
-  SituationTest: After a long shift you notice your safe is not opening
-  TextButton1: Accuse your staff of trying to lock you out of it and fire them
-  TextButton2: Break it open
-  Money_1: 0
-  Staff_1: 0
-  Equip_1: 0
-  Quality_1: 0
-  Popularity_1: 0
+  SituationTest: You and your staff have discovered a health issue
+  TextButton1: Blame them for it
+  TextButton2: Silence them
+  Money_1: -100
+  Staff_1: -100
+  Equip_1: -100
+  Quality_1: -100
+  Popularity_1: -100
   Money_2: 0
-  Staff_2: 0
-  Equip_2: -5
+  Staff_2: -5
+  Equip_2: 0
   Quality_2: 0
   Popularity_2: 0
   Special_1: 
   Special_2: 
-  Explanation_1: Instant Loss
-  Explanation_2: "You then remember this wasn\u2019t your safe"
+  Explanation_1: Well then...
+  Explanation_2: They didn't like it
   Background: {fileID: 21300000, guid: 0f9188d5083c0bf45adb057b0375b62d, type: 3}

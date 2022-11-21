@@ -15,7 +15,7 @@ C:/Users/adems/Downloads/15.11 SPACE/SPACE/New Unity Project (2)
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-53437
+59219
 Successfully changed project path to: C:/Users/adems/Downloads/15.11 SPACE/SPACE/New Unity Project (2)
 C:/Users/adems/Downloads/15.11 SPACE/SPACE/New Unity Project (2)
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/adems/Downloads/15.11 SPACE/SPACE/New Unity Project (2)
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 109.11 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 134.43 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.6f1 (7da38d85baf6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
@@ -63,89 +63,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56472
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56064
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.012151 seconds.
+Registered in 0.014557 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 105.18 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 109.29 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.811 seconds
+- Completed reload, in  0.964 seconds
 Domain Reload Profiling:
-	ReloadAssembly (812ms)
-		BeginReloadAssembly (102ms)
+	ReloadAssembly (965ms)
+		BeginReloadAssembly (152ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (562ms)
-			LoadAssemblies (99ms)
+		EndReloadAssembly (642ms)
+			LoadAssemblies (145ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (133ms)
+			SetupTypeCache (151ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (332ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (376ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (105ms)
+				RefreshPlugins (109ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (163ms)
-				ProcessInitializeOnLoadMethodAttributes (51ms)
+				ProcessInitializeOnLoadAttributes (186ms)
+				ProcessInitializeOnLoadMethodAttributes (67ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.012500 seconds.
+Registered in 0.016950 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\adems\Downloads\15.11 SPACE\SPACE\New Unity Project (2)\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\adems\Downloads\15.11 SPACE\SPACE\New Unity Project (2)\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.381 seconds
+- Completed reload, in  1.524 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1382ms)
-		BeginReloadAssembly (149ms)
+	ReloadAssembly (1525ms)
+		BeginReloadAssembly (177ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (1082ms)
-			LoadAssemblies (124ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (1172ms)
+			LoadAssemblies (141ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (357ms)
+			SetupTypeCache (385ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (509ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (534ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (146ms)
-				ProcessInitializeOnLoadAttributes (304ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
-				AfterProcessingInitializeOnLoad (14ms)
+				BeforeProcessingInitializeOnLoad (127ms)
+				ProcessInitializeOnLoadAttributes (344ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (16ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3375 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 27 unused Assets / (111.0 KB). Loaded Objects now: 3833.
 Memory consumption went from 116.1 MB to 116.0 MB.
-Total: 4.127300 ms (FindLiveObjects: 0.367900 ms CreateObjectMapping: 0.315400 ms MarkObjects: 3.318400 ms  DeleteObjects: 0.124300 ms)
+Total: 3.372600 ms (FindLiveObjects: 0.283100 ms CreateObjectMapping: 0.233800 ms MarkObjects: 2.690500 ms  DeleteObjects: 0.164100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -160,19 +160,35 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 518200.588837 seconds.
-  path: Assets/Scripts/Data/2- Supply and Technical Deck/Situation 50.asset
-  artifactKey: Guid(fe1af78d91174cb439d20e9329233594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Data/2- Supply and Technical Deck/Situation 50.asset using Guid(fe1af78d91174cb439d20e9329233594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '798c429ae89f7b2647b737097d77630a') in 0.047050 seconds 
+  Time since last request: 614064.919126 seconds.
+  path: Assets/Scripts/Data/3- Staff and Personal Life deck/Situation 49.asset
+  artifactKey: Guid(867237b59ef77404e9635ec2adb20ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/3- Staff and Personal Life deck/Situation 49.asset using Guid(867237b59ef77404e9635ec2adb20ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2e7e8e0b8e3ce3c4ed5932dfebd0311') in 0.039855 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Scripts/Data/2- Supply and Technical Deck/Situation 49.asset
-  artifactKey: Guid(5da641186231e70449ce6d0a0a5a4737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Data/2- Supply and Technical Deck/Situation 49.asset using Guid(5da641186231e70449ce6d0a0a5a4737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '404c359ebbfa9db083d4fe191d474dd3') in 0.003700 seconds 
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scripts/Data/3- Staff and Personal Life deck/Situation 41.asset
+  artifactKey: Guid(b8ae079d6ab7f7b429e690c8e2c0f0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/3- Staff and Personal Life deck/Situation 41.asset using Guid(b8ae079d6ab7f7b429e690c8e2c0f0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd02c96f5a5e3e601fac276afd39a61e0') in 0.004677 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 93.800005 seconds.
-  path: Assets/Scripts/Data/3- Staff and Personal Life deck/Situation 1.asset
-  artifactKey: Guid(90b47f2483805f846b864694d17a2d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Data/3- Staff and Personal Life deck/Situation 1.asset using Guid(90b47f2483805f846b864694d17a2d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16dc1b1fc8af03c344d2a0cb7f6267af') in 0.008506 seconds 
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scripts/Data/3- Staff and Personal Life deck/Situation 43.asset
+  artifactKey: Guid(9b2df8ace0584f343bd2c083c2d689f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/3- Staff and Personal Life deck/Situation 43.asset using Guid(9b2df8ace0584f343bd2c083c2d689f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b1fdb8957bb6b4f4a8678a8aa7f2730') in 0.003236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 198.761657 seconds.
+  path: Assets/Scripts/Data/3- Staff and Personal Life deck/Situation 46.asset
+  artifactKey: Guid(4aa9d34166fda4d41b36c50874ca91c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/3- Staff and Personal Life deck/Situation 46.asset using Guid(4aa9d34166fda4d41b36c50874ca91c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '544299f12e3c455e91a8594bdc14e55e') in 0.003329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004168 seconds.
+  path: Assets/Scripts/Data/3- Staff and Personal Life deck/Situation 50.asset
+  artifactKey: Guid(7a9711bb20068b64f8437f2830eb77dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/3- Staff and Personal Life deck/Situation 50.asset using Guid(7a9711bb20068b64f8437f2830eb77dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dab6134b1c428e81daddeafda709c87d') in 0.003863 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
