@@ -15,7 +15,7 @@ MonoBehaviour:
   SituationTest: 'There is an asteroid storm and orders are backing up '
   TextButton1: Hop in your car and help
   TextButton2: Stay and carry on making pizza's
-  Money_1: -5
+  Money_1: 5
   Staff_1: 0
   Equip_1: 0
   Quality_1: 5

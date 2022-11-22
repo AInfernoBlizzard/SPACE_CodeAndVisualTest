@@ -6,6 +6,7 @@ TagManager:
   tags:
   - touch
   - Asteroid
+  - Goal
   layers:
   - Default
   - TransparentFX

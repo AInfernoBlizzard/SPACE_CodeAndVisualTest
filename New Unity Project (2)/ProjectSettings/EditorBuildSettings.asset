@@ -27,6 +27,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Scene/Popularity/Popularity100.unity
     guid: 96bc94b300e4d64459d6ebf0a19914dc
   - enabled: 1
+    path: Assets/Scenes/Scene/TimerDone.unity
+    guid: e07eca28b12c41b44a424fa58fd4ba0d
+  - enabled: 1
     path: Assets/Scenes/Scene/Quality/Quality0.unity
     guid: 49901c5494312f84a83fdf45ebd31d81
   - enabled: 1
@@ -44,4 +47,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scene/TrueEnding.unity
     guid: 482453e0a94661c4496c288dca3e80d8
+  - enabled: 1
+    path: Assets/Scenes/Scene/MiniGameWin.unity
+    guid: dfce1521d33c99f458417f2fe5ec0e66
+  - enabled: 1
+    path: Assets/Scenes/Scene/MiniGames/Asteroids.unity
+    guid: 5edb71eb4c9142c41b5799ab80067ca9
   m_configObjects: {}

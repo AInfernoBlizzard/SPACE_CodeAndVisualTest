@@ -355,13 +355,16 @@
 "Assets/PT_Scripts/PT_screen_wrap.cs"
 "Assets/PT_Scripts/PT_sprite_joystick.cs"
 "Assets/Scripts/AsteroidCollide.cs"
+"Assets/Scripts/AsteroidGoal.cs"
 "Assets/Scripts/BarEffects.cs"
 "Assets/Scripts/DoNotDestroy.cs"
 "Assets/Scripts/GameManager.cs"
+"Assets/Scripts/PlayerCollide.cs"
 "Assets/Scripts/Restart.cs"
 "Assets/Scripts/SceneChange.cs"
 "Assets/Scripts/ScriptableTemplates/Event_Template.cs"
 "Assets/Scripts/Scriptable_GameManager.cs"
+"Assets/Scripts/Timer.cs"
 -langversion:9.0
 
 /deterministic

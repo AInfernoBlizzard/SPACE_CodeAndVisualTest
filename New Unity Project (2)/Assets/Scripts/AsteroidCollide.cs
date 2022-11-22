@@ -1,3 +1,4 @@
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -16,13 +17,13 @@ public class AsteroidCollide : MonoBehaviour
         
     }
 
-    private void OnTriggerStay2D(Collider2D Other)
+    private void OnTriggerEnter(Collider other)
     {
         Debug.Log("Collider works");
-        if (Other.gameObject.tag == "Player")
+        if (other.gameObject.tag == "Player")
         {
-            Debug.Log("Scenec change");
-            //SceneManager.LoadScene("InstantLoss");
+            Debug.Log("Scene change");
+            SceneManager.LoadScene("InstantLoss");
         }
                 
         
