@@ -27,7 +27,7 @@ MonoBehaviour:
   Quality_2: 0
   Popularity_2: 0
   Special_1: 
-  Special_2: Pizza Daddy
+  Special_2: PizzaDaddy
   Explanation_1: "They think it was a good idea, it\u2019s a shame"
   Explanation_2: Wow! Pizza money is paying off now
   Background: {fileID: 21300000, guid: 7c7fe53b9aa4cde479961435b74d4a8e, type: 3}

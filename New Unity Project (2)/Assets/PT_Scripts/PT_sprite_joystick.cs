@@ -21,10 +21,10 @@ public class PT_sprite_joystick : MonoBehaviour {
             pointA = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, Camera.main.transform.position.z));
             //pointA = new Vector3(Input.mousePosition.x, Input.mousePosition.y,0);
 
-            //circle.transform.position = pointA * -1;
-            //outerCircle.transform.position = pointA * -1;
-            circle.transform.position = pointA;
-            outerCircle.transform.position = pointA;
+            circle.transform.position = pointA * -1;
+            outerCircle.transform.position = pointA * -1;
+            //circle.transform.position = pointA;
+            //outerCircle.transform.position = pointA;
             circle.GetComponent<SpriteRenderer>().enabled = true;
             outerCircle.GetComponent<SpriteRenderer>().enabled = true;
         }
@@ -41,11 +41,11 @@ public class PT_sprite_joystick : MonoBehaviour {
         if(touchStart){
             Vector2 offset = pointB - pointA;
             Vector2 direction = Vector2.ClampMagnitude(offset, 1.0f);
-            //moveCharacter(direction * -1);
-            moveCharacter(direction);
+            moveCharacter(direction * -1);
+            //moveCharacter(direction);
 
-            //circle.transform.position = new Vector2(pointA.x + direction.x, pointA.y + direction.y) * -1;
-            circle.transform.position = new Vector2(pointA.x + direction.x, pointA.y + direction.y);
+            circle.transform.position = new Vector2(pointA.x + direction.x, pointA.y + direction.y) * -1;
+            //circle.transform.position = new Vector2(pointA.x + direction.x, pointA.y + direction.y);
         }else{
             circle.GetComponent<SpriteRenderer>().enabled = false;
             outerCircle.GetComponent<SpriteRenderer>().enabled = false;

@@ -73,7 +73,7 @@ public class GameManager : MonoBehaviour
                 ResetMultipliers();
                 PowerUpTicker = 0;
             }
-            else
+            else if(PowerUpTicker>1)
             {
                 PowerUpTicker--;
             }
@@ -143,12 +143,50 @@ public class GameManager : MonoBehaviour
             ChoiceOneText.text = "OK";
             ChoiceTwoText.gameObject.transform.parent.gameObject.SetActive(false);
             //check end game situations
-            EndGameCheck();
-        }
 
-        if ((Money < 1) && (Quality < 1) && (Equip < 1) && (Popularity < 1) && (Staff < 1))
-        {
-            SceneManager.LoadScene("InstantLoss");
+            if (eventDeck[0].Special_2 == "PizzaGods")
+            {
+                PizzaGodsPowerUp(5f);
+            }
+
+            if (eventDeck[0].Special_2 == "PizzaDaddy")
+            {
+                Debug.Log("Daddy?!");
+                PizzaDaddyPowerUp(5f);
+            }
+
+            if (eventDeck[0].Special_2 == "WishingStar")
+            {
+                WishingStarPowerUp(5f);
+            }
+
+            if (eventDeck[0].Special_2 == "GalaxiesFavourite")
+            {
+                GalaxiesFavouritePowerUp(5f);
+            }
+
+            if (eventDeck[0].Special_2 == "PricesYouCannotCompeteAt")
+            {
+                PricesYouCannotPowerDown(5f);
+            }
+
+            if (eventDeck[0].Special_2 == "UniversalMinimumWage")
+            {
+                UniversalPowerDown(5f);
+            }
+
+            if (eventDeck[0].Special_2 == "InternetBlackout")
+            {
+                InternetBlackoutPowerDown(5f);
+            }
+
+            if (eventDeck[0].Special_2 == "Infestation")
+            {
+                Debug.Log("Infestation?!");
+                InfestationPowerDown(5f);
+            }
+
+            EndGameCheck();
         }
 
         if (Staff < 1)
@@ -205,6 +243,12 @@ public class GameManager : MonoBehaviour
         {
             SceneManager.LoadScene("TrueEnding");
         }
+
+        if ((Money < 1) && (Quality < 1) && (Equip < 1) && (Popularity < 1) && (Staff < 1))
+        {
+            SceneManager.LoadScene("InstantLoss");
+        }
+
     }
 
     void ResetMultipliers()
@@ -215,71 +259,83 @@ public class GameManager : MonoBehaviour
         EquipMultiplier = 1f;
         QualityMultiplier = 1f;
         PopularityMultiplier = 1f;
+        // deactivate powerups and downs
+        GalaxiesFavourite.gameObject.SetActive(false);
+        PizzaGods.gameObject.SetActive(false);
+        PizzaDaddy.gameObject.SetActive(false);
+        WishingStar.gameObject.SetActive(false);
+        UniversalMinimumWage.gameObject.SetActive(false);
+        Infestation.gameObject.SetActive(false);
+        InternetBlackout.gameObject.SetActive(false);
+        PricesYouCannotCompeteAt.gameObject.SetActive(false);
     }
     void GalaxiesFavouritePowerUp(float NumberOfTurns)
     {
-        ResetMultipliers();
         PopularityMultiplier = 2f;
         PowerUpTicker = NumberOfTurns;
-        GalaxiesFavourite.gameObject.transform.parent.gameObject.SetActive(true);
+        GalaxiesFavourite.gameObject.SetActive(true);
+       //ResetMultipliers();
         //Activate the graphic
     }
     void PizzaGodsPowerUp(float NumberOfTurns)
     {
-        ResetMultipliers();
         QualityMultiplier = 2f;
         EquipMultiplier = 2f;
         PowerUpTicker = NumberOfTurns;
-        PizzaGods.gameObject.transform.parent.gameObject.SetActive(true);
+        PizzaGods.gameObject.SetActive(true);
+        //ResetMultipliers();
         //Activate the graphic
+
     }
     void PizzaDaddyPowerUp(float NumberOfTurns)
     {
-        ResetMultipliers();
         MoneyMultiplier = 2f;
         PowerUpTicker = NumberOfTurns;
-        PizzaDaddy.gameObject.transform.parent.gameObject.SetActive(true);
+        PizzaDaddy.gameObject.SetActive(true);
+        //ResetMultipliers();
         //Activate the graphic
     }
     void WishingStarPowerUp(float NumberOfTurns)
     {
-        ResetMultipliers();
         StaffMultiplier = 2f;
         PowerUpTicker = NumberOfTurns;
-        WishingStar.gameObject.transform.parent.gameObject.SetActive(true);
+        WishingStar.gameObject.SetActive(true);
+        //ResetMultipliers();
         //Activate the graphic
     }
     void UniversalPowerDown(float NumberOfTurns)
     {
-        ResetMultipliers();
         StaffMultiplier = 0.5f;
         MoneyMultiplier = 0.5f;
         PowerUpTicker = NumberOfTurns;
-        UniversalMinimumWage.gameObject.transform.parent.gameObject.SetActive(true);
+        UniversalMinimumWage.gameObject.SetActive(true);
+        //ResetMultipliers();
         //Activate the graphic
     }
     void InfestationPowerDown(float NumberOfTurns)
     {
-        ResetMultipliers();
         PopularityMultiplier = 0.5f;
         PowerUpTicker = NumberOfTurns;
-        Infestation.gameObject.transform.parent.gameObject.SetActive(true);
+        Infestation.gameObject.SetActive(true);
+        //ResetMultipliers();
         //Activate the graphic
+
     }
     void InternetBlackoutPowerDown(float NumberOfTurns)
     {
-        ResetMultipliers();
         EquipMultiplier = 0.5f;
         PowerUpTicker = NumberOfTurns;
-        InternetBlackout.gameObject.transform.parent.gameObject.SetActive(true);
+        InternetBlackout.gameObject.SetActive(true);
+        //ResetMultipliers();
         //Activate the graphic
+
     }
     void PricesYouCannotPowerDown(float NumberOfTurns)
     {
-        ResetMultipliers();
         MoneyMultiplier = 0.5f;
         PowerUpTicker = NumberOfTurns;
-        PricesYouCannotCompeteAt.gameObject.transform.parent.gameObject.SetActive(true);
+        PricesYouCannotCompeteAt.gameObject.SetActive(true);
+        //ResetMultipliers();
         //Activate the graphic
     }
 
