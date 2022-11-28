@@ -127,6 +127,11 @@ public class GameManager : MonoBehaviour
             ChoiceTwoText.gameObject.transform.parent.gameObject.SetActive(false);
             //check end game situations
             EndGameCheck();
+
+            if (eventDeck[0].Special_1 == "Asteroids")
+            {
+                SceneManager.LoadScene("Asteroids");
+            }
         }
 
         if (choice.text == eventDeck[0].TextButton2)
