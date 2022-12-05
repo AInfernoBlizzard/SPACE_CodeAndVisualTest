@@ -53,4 +53,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scene/MiniGames/Asteroids.unity
     guid: 5edb71eb4c9142c41b5799ab80067ca9
+  - enabled: 1
+    path: Assets/Scenes/Scene/MainMenu.unity
+    guid: 5c5af9a8f51c1e749972e56fa53a78c2
+  - enabled: 1
+    path: Assets/Scenes/Scene/MainMenuInfo.unity
+    guid: 23afdfd872cf51943a1494d0df908ef6
+  - enabled: 1
+    path: Assets/Images/InstantLoss/InstantLoss1.unity
+    guid: f4890770fafbd4a45b9f06846da70bc2
+  - enabled: 1
+    path: Assets/Images/InstantLoss/InstantLoss2.unity
+    guid: 211282a09d985e14685a7baacaf717ba
+  - enabled: 1
+    path: Assets/Images/InstantLoss/InstantLoss3.unity
+    guid: bb9b63808e432c043877bb1cbfa3e9e2
+  - enabled: 1
+    path: Assets/Images/InstantLoss/InstantLoss4.unity
+    guid: 22a9f51f3354c2346bf924b26dfbc937
   m_configObjects: {}

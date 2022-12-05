@@ -21,13 +21,13 @@ MonoBehaviour:
   Equip_1: 0
   Quality_1: 0
   Popularity_1: -5
-  Money_2: -100
-  Staff_2: -100
-  Equip_2: -100
-  Quality_2: -100
-  Popularity_2: -100
+  Money_2: 0
+  Staff_2: 0
+  Equip_2: 0
+  Quality_2: 0
+  Popularity_2: 0
   Special_1: 
-  Special_2: InstantLoss
+  Special_2: InstantLoss2
   Explanation_1: They do not understand the struggles
   Explanation_2: This would be a instant loss
   Background: {fileID: 21300000, guid: cac58f3d998e66b4b82df83aa87465fc, type: 3}

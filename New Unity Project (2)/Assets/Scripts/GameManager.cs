@@ -132,6 +132,16 @@ public class GameManager : MonoBehaviour
             {
                 SceneManager.LoadScene("Asteroids");
             }
+
+            if (eventDeck[0].Special_1 == "InstantLoss3")
+            {
+                SceneManager.LoadScene("InstantLoss1");
+            }
+
+            if (eventDeck[0].Special_1 == "InstantLoss4")
+            {
+                SceneManager.LoadScene("InstantLoss2");
+            }
         }
 
         if (choice.text == eventDeck[0].TextButton2)
@@ -191,6 +201,17 @@ public class GameManager : MonoBehaviour
                 InfestationPowerDown(5f);
             }
 
+            if (eventDeck[0].Special_2 == "InstantLoss1")
+            {
+                SceneManager.LoadScene("InstantLoss3");
+            }
+
+            if (eventDeck[0].Special_2 == "InstantLoss2")
+            {
+                SceneManager.LoadScene("InstantLoss4");
+            }
+
+
             EndGameCheck();
         }
 
@@ -249,9 +270,9 @@ public class GameManager : MonoBehaviour
             SceneManager.LoadScene("TrueEnding");
         }
 
-        if ((Money < 1) && (Quality < 1) && (Equip < 1) && (Popularity < 1) && (Staff < 1))
+        //if ((Money < 1) && (Quality < 1) && (Equip < 1) && (Popularity < 1) && (Staff < 1))
         {
-            SceneManager.LoadScene("InstantLoss");
+            //SceneManager.LoadScene("InstantLoss");
         }
 
     }
