@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Scene/MainMenu.unity
+    guid: 5c5af9a8f51c1e749972e56fa53a78c2
+  - enabled: 1
     path: Assets/Scenes/Scene/Scene 1.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
@@ -53,9 +56,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scene/MiniGames/Asteroids.unity
     guid: 5edb71eb4c9142c41b5799ab80067ca9
-  - enabled: 1
-    path: Assets/Scenes/Scene/MainMenu.unity
-    guid: 5c5af9a8f51c1e749972e56fa53a78c2
   - enabled: 1
     path: Assets/Scenes/Scene/MainMenuInfo.unity
     guid: 23afdfd872cf51943a1494d0df908ef6
